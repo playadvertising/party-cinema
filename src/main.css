@@ -3,3 +3,8 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+  @font-face {
+      font-family: 'Glasgow';
+      src: local('Glasgow'), url(./fonts/Glasgow-ExBd.ttf) format('ttf');
+    }

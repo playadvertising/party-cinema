@@ -1,18 +1,30 @@
 <template>
 <div class="bg-red">
     <div class="md:grid md:grid-cols-3">
-      <div class="md:col-span-1">
-        <div class="px-4 xl:pl-48">
-          <h3 class="md:pt-12 pt-4 text-2xl md:text-4xl font-medium leading-6 text-white">Get in touch.</h3>
+      <div class="md:col-span-1 mx-auto">
+        <div class="px-4">
+          <h3 class="md:pt-12 pt-4 pb-4 text-4xl md:text-5xl font-medium 
+          leading-6 text-white">
+            Get in touch.</h3>
           
-          <span class="text-white text-2xl ">
+          <span class="text-white text-3xl">
             <a href="tel:+1-888-853-0053">1-888-853-0053</a>
+            <a>
+              <div class="h-14 w-14 bg-yellow-400 mt-4 rounded">
+                <g-image alt="" class="p-1 object-center w-full h-full" src="../facebook.png"/>
+              </div>
+            </a>
+            <a>
+              <div class="h-14 w-14 bg-yellow-400 mt-4 rounded">
+                <g-image alt="" class="p-1 object-center w-full h-full" src="../twitter.png"/>
+              </div>
+            </a>
           </span>
         </div>
       </div>
       <div class="mt-5 md:mt-10 p-4 md:col-span-2">
         <form action="https://api.form-data.com/f/vhwglzikey8cbjkhgis4kn"
-      method="post">
+          method="post">
           <div class="shadow overflow-hidden sm:rounded-md">
             <div class="px-4 py-5 bg-white sm:p-6">
               <div class="grid grid-cols-6 gap-6">
@@ -72,7 +84,7 @@ export default {
     }
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'contact form'
   }
 }
 </script>
