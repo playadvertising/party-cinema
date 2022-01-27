@@ -22,7 +22,7 @@
             </div>
             <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                 <g-link class="font-medium text-gray-500 hover:text-gray-900"
-                to="/om">
+                to="/outdoor-movies/">
                 Home</g-link>
                 <span 
                 @click="services = !services"
@@ -30,25 +30,27 @@
                   Services ▼
                 </span>
                 <div v-if="services" class="absolute shadow-md p-4 top-8 z-10 bg-white w-48">
-                  <g-link class="font-medium text-gray-500 hover:text-gray-900"
-                  to="/om-standard-services">
+                  <g-link class="font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                  to="/outdoor-movies-standard-services/">
                   Standard Services</g-link>
-                  <g-link class="font-medium text-gray-500 hover:text-gray-900"
-                  to="/">
-                  Drive-in Theatre</g-link>
-                  <g-link class="font-medium text-gray-500 hover:text-gray-900"
-                  to="/om-backyard-experience">
-                  Backyard Experience</g-link>
-                </div>
-                <g-link class="font-medium text-gray-500 hover:text-gray-900"
-                to="/">
+                  <div class="my-4">
+                    <g-link class="font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                    to="/outdoor-movies-drive-in-theatre/">
+                    Drive-in Theatre</g-link>
+                  </div>
+                  <g-link class="font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                  to="/outdoor-movies-backyard-experience/">
+                  Backyard Experience</g-link></div>
+                <g-link class="font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                to="/outdoor-movies-movie-licensing/">
                 Movie Licensing</g-link>
                 <g-link class="font-medium text-gray-500 hover:text-gray-900"
-                to="/">
+                to="/outdoor-movies-faq/">
                 FAQ</g-link>
-                <g-link class="font-medium text-gray-500 hover:text-gray-900"
-                to="/">
-                Contact</g-link>
+                <div 
+                @click="$emit('scroll')"
+                class="inline cursor-pointer font-medium text-gray-500 hover:text-gray-900">
+                Contact</div>
             </div>
           </nav>
         </div>
@@ -92,30 +94,29 @@
                 <div class="px-6">
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
                     text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                  to="/">
+                  to="/outdoor-movies-standard-services/">
                   Standard Services</g-link>
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
                   text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                  to="/">
+                  to="/outdoor-movies-drive-in-theatre/">
                   Drive-in Theatre</g-link>
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
                   text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                  to="/">
+                  to="/outdoor-movies-backyard-experience/">
                   Backyard Experience</g-link>
                 </div>  
                 <g-link class="block px-3 py-2 rounded-md text-base font-medium
                 text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                to="/">
-                
+                to="/outdoor-movies-movie-licensing/">
                 Movie Licensing</g-link>
                 <g-link class="block px-3 py-2 rounded-md text-base font-medium
                 text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                to="/">
+                to="/outdoor-movies-faq/">
                 FAQ</g-link>
-                <g-link class="block px-3 py-2 rounded-md text-base font-medium
+                <div class="cursor-pointer px-3 py-2 rounded-md text-base font-medium
                 text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                to="/">
-                Contact</g-link>
+                @click="$emit('scroll')">
+                Contact</div>
             </div>
           </div>
         </div>

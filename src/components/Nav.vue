@@ -30,18 +30,18 @@
                   Services ▼
                 </span>
                 <div v-if="services" class="absolute shadow-md p-4 top-8 z-10 bg-white w-56">
-                  <g-link class="font-medium block text-gray-500 hover:text-gray-900"
-                  to="/VDP/">
+                  <g-link class="font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                  to="/">
                   Video Dance Party</g-link>
-                  <g-link class="font-medium block text-gray-500 hover:text-gray-900"
-                  to="/OM/">
+                  <g-link class="my-4 font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                  to="/outdoor-movies/">
                   Outdoor Movies</g-link>
-                  <g-link class="font-medium block text-gray-500 hover:text-gray-900"
-                  to="/AVP/">
+                  <g-link class="font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                  to="/">
                   AV Plus</g-link>
                 </div>
                 <g-link class="font-medium text-gray-500 hover:text-gray-900"
-                to="/">
+                @click="this.$emit(scroll)">
                 Contact</g-link>
             </div>
           </nav>
@@ -86,20 +86,20 @@
                 <div class="px-6">
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
                     text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                  to="/VDP/">
+                  to="/">
                   Video Dance Party</g-link>
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
                   text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                  to="/OM/">
+                  to="/outdoor-movies/">
                   Outdoor Movies</g-link>
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
                   text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                  to="/AVP/">
+                  to="/">
                   AV Plus</g-link>
                 </div>  
                 <g-link class="block px-3 py-2 rounded-md text-base font-medium
                 text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                to="/">
+                @click="this.$emit('scroll')">
                 Contact</g-link>
             </div>
           </div>

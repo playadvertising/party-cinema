@@ -8,6 +8,10 @@ module.exports = {
   plugins: [
    
   ],
+  icon: {
+    favicon: './src/party-cinemas-thumbnail-logo.png',
+    touchicon: './src/party-cinemas-thumbnail-logo.png'
+  },
   css: {
     loaderOptions: {
       postcss: {
