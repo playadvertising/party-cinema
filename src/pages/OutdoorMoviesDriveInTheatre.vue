@@ -10,7 +10,7 @@
           <h1 class="tracking-tight font-extrabold 
           text-gray-900 text-6xl md:text-7xl">
             <span class="block text-py uppercase drop-shadow">
-            Drive In Experience
+            Pop-up Drive-ins
             </span>
           </h1>
           <div class="mt-5 sm:mt-8 sm:flex justify-center">
@@ -34,12 +34,18 @@
         <div class="flex justify-center gap-4">
           <a href="https://www.facebook.com/partycinemas/">
               <div class="w-8 md:w-12 bg-py rounded">
-                <g-image alt="" class="p-1 object-center w-full h-full" src="../facebook.png"/>
+                <g-image 
+                alt="facebook link" 
+                class="p-1 object-center w-full h-full" 
+                src="../facebook.png"/>
               </div>
           </a>
           <a href="https://www.instagram.com/partycinemas/?hl=en">
               <div class="w-8 md:w-12 bg-py rounded">
-                <g-image alt="" class="p-1 object-center w-full h-full" src="../instagram.png"/>
+                <g-image 
+                alt="instagram link" 
+                class="p-1 object-center w-full h-full" 
+                src="../instagram.png"/>
               </div>
           </a>
         </div>
@@ -52,29 +58,44 @@
        The Drive In Theatre is popular again!
       </p>
       <p class="mt-4 text-lg lg:mx-auto">
-          Outdoor Movies have been around since the 30's. The first Drive-in theatre in Canada was opened in Hamilton 1946. Attending a Drive-in theatre today brings back a strong feeling of nostalgia - retro is in! That being said it's not as easy to locate one anymore. With the advent of digital cinema, many were forced to close three doors as the cost to convert was astronomical. As dusk rolls around, cars will arrive with families inside filled with excitement, adventure and those wonderful feelings of nostalgia. There's a special event happening- something that spans multiple generations of families. There's something to be said about that. The smell of freshly popped popcorn in the air - children are having fun with each other or playing catch with parents. The movie is about to begin as it's getting darker. People are tuning in the radio in their car to the broadcast station and everyone is nestled up in their cars or cozied up on lawn chairs with a blanket across their laps ready to enjoy the film - just like their parents, grand parents or even their great grand parents did. Maybe it's your first one - no matter the case, the night is going to be special. The movie will be loved and a new memory will be cherished. Party Cinemas has been providing the portable Drive-in experience since 2008 and in 2020 with the introduction of social distancing we are the experts here to help keep the community spirit alive! We provide the outdoor drive-in theatre experience in many settings, let's talk about your vision and we will provide all the necessay equipment to make your special night happen. These events can happen literally anywhere - fields, parking lots, on top of parking garages, airports and even marinas.  
+        Fun Fact: Outdoor Movies have been around since the 1930's. The first Drive-in theatre in Canada was opened in Hamilton 1946. <br/><br/>
+        Attending a Drive-in theatre today brings back a strong feeling of nostalgia - retro is in! That being said, it's not as easy to locate one anymore. With the advent of digital cinema, many were forced to close their doors as the cost to convert was astronomical. <br /><br/>
+        As dusk rolls around, your expected cars will arrive with families inside filled with excitement, adventure and those wonderful feelings of nostalgia. There's a special event happening that families have experienced for multiple generations. The smell of freshly popped popcorn in the air - children having fun with each other or playing catch with parents. The sun is setting and the movie is about to begin. People are tuning in the radio in their car to the broadcast station and everyone is nestled up in their cars or cozied up on lawn chairs with a blanket across their laps ready to enjoy the film - just like their parents, grandparents or even their great grandparents did. Maybe it's their first one - no matter the case, the night is going to be special. The movie will be loved and a new memory will be cherished. <br /><br/>
+        Party Cinemas has been providing the Pop-Up Drive-in experience since 2008 and in 2020 with the introduction of social distancing we were already the experts here to help keep the community spirit alive! With hundreds of Drive-In Movie events under our belt, we are able to provide this experience at almost any venue. Let's talk about your vision and help make your special night happen. These events can happen literally anywhere - fields, parking lots, on top of parking garages, airports and even marinas! <br />
       </p> 
     </div>
     <div class="container px-5 py-12 mx-auto">
       <div class="flex flex-wrap -m-4">
         <div class="lg:w-1/4 p-4 w-1/2">
           <a class="block relative h-48 rounded overflow-hidden">
-            <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm2.jpg"/>
+            <g-image 
+            alt="Sunset in a parking lot, cars are parked in front of a large inflatable screen" 
+            class="object-cover object-center w-full h-full block" 
+            src="../odm2.jpg"/>
           </a>
         </div>
         <div class="lg:w-1/4 p-4 w-1/2">
           <a class="block relative h-48 rounded overflow-hidden">
-            <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm4.jpg"/>
+            <g-image 
+            alt="Large panorama of people parked in parking lot at sunset, awaiting an outdoor movie" 
+            class="object-cover object-center w-full h-full block" 
+            src="../odm4.jpg"/>
           </a>
         </div>
         <div class="lg:w-1/4 p-4 w-1/2">
           <a class="block relative h-48 rounded overflow-hidden">
-            <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm8.jpg"/>
+            <g-image 
+            alt="Riderless motorcycles parked in front of an inflatable movie screen" 
+            class="object-cover object-center w-full h-full block" 
+            src="../odm8.jpg"/>
           </a>
         </div>
         <div class="lg:w-1/4 p-4 w-1/2">
           <a class="block relative h-48 rounded overflow-hidden">
-            <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm10.jpg"/>
+            <g-image 
+            alt="Large screen setup in parking lot with a large concert stage in background" 
+            class="object-cover object-center w-full h-full block" 
+            src="../odm10.jpg"/>
           </a>
         </div>
       </div>
@@ -90,8 +111,8 @@
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="lg:text-center">
       <p class="mt-2 text-3xl font-bold
-      md:text-5xl uppercase">
-        let us help plan your community memory
+      md:text-5xl">
+        POP-UP DRIVE-IN EXPERIENCE EXPERTS
       </p>
       <div class="relative flex py-5">
         <span class="w-5/12 invisible lg:visible mx-auto border-t-2 border-white"></span>
@@ -100,15 +121,16 @@
             <span class="text-xl font-bold
             md:text-2xl">Included in your event is:</span>
           <ul class=" list-disc mt-4">
-            <li class="pb-2">Industry leading Airscreen <span>&#174;</span> inflatable screen</li>
-            <li class="pb-2">Ultra-high Lumen HD Projection</li>
+            <li class="pb-2">Industry leading Airscreen ® inflatable screen (Various sizes Available)</li>
+            <li class="pb-2">Ultra-high 20,000 Lumen HD Projection</li>
             <li class="pb-2">Drive-in Audio FM Transmitter for in-vehicle radio reception</li>
             <li class="pb-2">Speaker for general announcments</li>
             <li class="pb-2">Whisper Quiet Honda Power</li>
-            <li class="pb-2">Incidental equipment (source player, mic, cables etc)</li>
+            <li class="pb-2">Incidental equipment (media player, mic, cables etc)</li>
+            <li class="pb-2">Professional AV Technicians will Deliver, Set-Up, Operate and Take Down</li>
             <li class="pb-2">Promotional event posters (printed and digital - on request)</li>
-            <li class="pb-2">Five Million Dollor Liability Insurance</li>
-            <li class="pb-2">Back-up equipment!</li>
+            <li class="pb-2"><bold>Five Million Dollor Liability Insurance</bold></li>
+            <li class="pb-2"><bold>Back-up equipment!</bold></li>
           </ul>
         </div>
         <div class="pl-4 lg:pl-48 mt-4 text-left">
@@ -125,11 +147,9 @@
         our stand on covid-19
       </p>
        <p class="mt-4 max-w-5xl text-left lg:text-center text-lg lg:mx-auto">
-         With social distancing in place and limits in gathering sizes, backyard events are a great escape to enjoy with your family or with a few friends. As we head out on the long path of recovery, people are already looking for sparks of normalacy and backyard movie rentals are the perfect COVID-19 safe event to lift spirits and warm hearts. 
+        With social distancing in place, drive-in movie events are a great escape to enjoy with your family or with a few friends. As we head out on the long path of recovery, people are looking for sparks of normalcy and pop-up drive-in movie events are the perfect COVID-19 safe event to lift spirits and warm hearts.<br /><br />
+        All of our technicians are fully vaccinated. Your event, our services and technicians will comply with any current restrictions in place at the time of your event. Please fill out the contact form below or even better, call us at 1-888-853-0053 to have a discussion on how this will look for you.
       </p> 
-      <p class="mt-4 max-w-5xl text-left lg:text-center text-lg lg:mx-auto">
-         Your event, our services and staff will comply with any current restrictions in place at the time of your event. All equipment is completely sanitized after each event. Please fill out the contact form below or event better, call us at 1-888-853-0053 to have a dsicussion on how this will look for you.  
-      </p>
     </div>
     </div>
   </div>
@@ -262,27 +282,27 @@
               <div class="grid grid-cols-6 gap-6">
                 <div class="col-span-6">
                   <label for="name" class="block text-sm font-medium">Name</label>
-                  <input type="text" name="name" id="name" autocomplete="given-name" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <input required type="text" name="name" id="name" autocomplete="given-name" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
                 <div class="col-span-6">
                   <label for="email-address" class="block text-sm font-medium">Email address</label>
-                  <input type="text" name="email-address" id="email-address" autocomplete="email" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <input required type="text" name="email-address" id="email-address" autocomplete="email" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
                 <div class="col-span-6">
                   <label for="phone" class="block text-sm font-medium">Phone</label>
-                  <input type="text" name="phone" id="phone" autocomplete="phone" class="mt-1 focus:ring-yellow-400 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <input required type="text" name="phone" id="phone" autocomplete="phone" class="mt-1 focus:ring-yellow-400 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
                 <div class="col-span-6">
                   <label for="subject" class="block text-sm font-medium">Subject</label>
-                  <input type="text" name="subject" id="subject" autocomplete="subject" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <input required type="text" name="subject" id="subject" autocomplete="subject" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
                 <div class="col-span-6">
                   <label for="message" class="block text-sm font-medium">Message</label>
-                  <textarea type="text" name="message" id="message" autocomplete="message" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <textarea required type="text" name="message" id="message" autocomplete="message" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
               </div>

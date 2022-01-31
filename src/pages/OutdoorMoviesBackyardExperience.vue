@@ -10,7 +10,7 @@
           <h1 class="tracking-tight font-extrabold 
           text-gray-900 text-6xl md:text-7xl">
             <span class="block text-py uppercase drop-shadow">
-            The ultimate backyard cinema experience  
+            Backyard Experiences  
             </span>
           </h1>
           <div class="mt-5 sm:mt-8 sm:flex justify-center">
@@ -65,22 +65,34 @@
       <div class="flex flex-wrap -m-4">
         <div class="lg:w-1/4 p-4 w-1/2">
           <a class="block relative h-48 rounded overflow-hidden">
-            <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm5.jpg"/>
+            <g-image 
+            alt="Sunny backyard with long pool, canopy, and large inflatable screen" 
+            class="object-cover object-center w-full h-full block" 
+            src="../odm5.jpg"/>
           </a>
         </div>
         <div class="lg:w-1/4 p-4 w-1/2">
           <a class="block relative h-48 rounded overflow-hidden">
-            <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm6.jpg"/>
+            <g-image 
+            alt="Family sitting on a counh in a backyard watching a large screen" 
+            class="object-cover object-center w-full h-full block" 
+            src="../odm6.jpg"/>
           </a>
         </div>
         <div class="lg:w-1/4 p-4 w-1/2">
           <a class="block relative h-48 rounded overflow-hidden">
-            <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm-by1 (1).jpg"/>
+            <g-image 
+            alt="Front on shot of a large inflatable screen in a green backyard" 
+            class="object-cover object-center w-full h-full block" 
+            src="../odm-by1 (1).jpg"/>
           </a>
         </div>
         <div class="lg:w-1/4 p-4 w-1/2">
           <a class="block relative h-48 rounded overflow-hidden">
-            <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm-by1 (2).jpg"/>
+            <g-image 
+            alt="Family on back porch watching hockey on a giant television" 
+            class="object-cover object-center w-full h-full block" 
+            src="../odm-by1 (2).jpg"/>
           </a>
         </div>
       </div>
@@ -235,42 +247,66 @@
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm1.jpg"/>
+          <g-image 
+          alt="" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm1.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm2.jpg"/>
+          <g-image 
+          alt="" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm2.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm3.jpg"/>
+          <g-image 
+          alt="" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm3.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm4.jpg"/>
+          <g-image 
+          alt="" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm4.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm5.jpg"/>
+          <g-image 
+          alt="" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm5.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm6.jpg"/>
+          <g-image 
+          alt="" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm6.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm7.jpg"/>
+          <g-image 
+          alt="" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm7.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm8.jpg"/>
+          <g-image 
+          alt="" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm8.jpg"/>
         </a>
       </div>
     </div>
@@ -331,27 +367,27 @@
               <div class="grid grid-cols-6 gap-6">
                 <div class="col-span-6">
                   <label for="name" class="block text-sm font-medium">Name</label>
-                  <input type="text" name="name" id="name" autocomplete="given-name" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <input required type="text" name="name" id="name" autocomplete="given-name" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
                 <div class="col-span-6">
                   <label for="email-address" class="block text-sm font-medium">Email address</label>
-                  <input type="text" name="email-address" id="email-address" autocomplete="email" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <input required type="text" name="email-address" id="email-address" autocomplete="email" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
                 <div class="col-span-6">
                   <label for="phone" class="block text-sm font-medium">Phone</label>
-                  <input type="text" name="phone" id="phone" autocomplete="phone" class="mt-1 focus:ring-yellow-400 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <input required type="text" name="phone" id="phone" autocomplete="phone" class="mt-1 focus:ring-yellow-400 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
                 <div class="col-span-6">
                   <label for="subject" class="block text-sm font-medium">Subject</label>
-                  <input type="text" name="subject" id="subject" autocomplete="subject" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <input required type="text" name="subject" id="subject" autocomplete="subject" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
                 <div class="col-span-6">
                   <label for="message" class="block text-sm font-medium">Message</label>
-                  <textarea type="text" name="message" id="message" autocomplete="message" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <textarea required type="text" name="message" id="message" autocomplete="message" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
               </div>

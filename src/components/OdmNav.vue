@@ -4,11 +4,14 @@
           <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
             <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div class="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
+                <g-link to="/">
                   <span class="sr-only">party cinema</span>
-                  <g-image alt="Party cinema" src="~/party-cinemas-logo.png" width="90" />
+                  <g-image 
+                  alt="Party cinema" 
+                  src="~/party-cinemas-logo.png" 
+                  width="90" />
                   <!-- <img class="h-8 w-auto sm:h-10" src="./srv/"> -->
-                </a>
+                </g-link>
                 <div class="-mr-2 flex items-center md:hidden">
                   <button @click="menu = !menu" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
@@ -32,15 +35,15 @@
                 <div v-if="services" class="absolute shadow-md p-4 top-8 z-10 bg-white w-48">
                   <g-link class="font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
                   to="/outdoor-movies-standard-services/">
-                  Standard Services</g-link>
+                  Outdoor Movies</g-link>
                   <div class="my-4">
                     <g-link class="font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
                     to="/outdoor-movies-drive-in-theatre/">
-                    Drive-in Theatre</g-link>
+                    Pop-up Drive-ins</g-link>
                   </div>
                   <g-link class="font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
                   to="/outdoor-movies-backyard-experience/">
-                  Backyard Experience</g-link></div>
+                  Backyard Experiences</g-link></div>
                 <g-link class="font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50"
                 to="/outdoor-movies-movie-licensing/">
                 Movie Licensing</g-link>

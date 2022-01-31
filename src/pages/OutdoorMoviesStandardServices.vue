@@ -10,7 +10,7 @@
           <h1 class="tracking-tight font-extrabold 
           text-gray-900 text-6xl md:text-7xl">
             <span class="block text-py uppercase drop-shadow">
-            Standard Services
+            Outdoor Movies
             </span>
           </h1>
           <div class="mt-5 sm:mt-8 sm:flex justify-center">
@@ -92,10 +92,10 @@
   <!-- services teal part -->
   <div class="py-12 bg-emerald text-white grid gap-y-4">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
+    <div class="text-center">
       <p class="mt-2 text-5xl font-extrabold
       md:text-7xl">
-        Screen Services
+        Inflatable Screen Size Options
       </p>
     </div>
   </div>
@@ -110,44 +110,20 @@
         class="bg-white border border-gray-600 w-8/12 lg:w-full mb-4"
       >
         <div class="w-full py-4 bg-gray-700 text-center">
-          <h2 class="flex justify-center font-bold text-2xl">
-          Backyard Movies
-          </h2>
-        </div>
-        <div class="p-4 ">
-          <ul class="text-gray-900 text-xs list-disc pl-12">
-            <li class="pb-4">Easy Set Up and is Perfect for Backyards and Residential Spaces</li>
-            <li class="pb-4">16' and 24' Screen Sizes Available</li>
-            <li class="pb-4">Movie Nights | Video Games | Music Videos| Live Sporting Events | Netflix | Concerts</li>
-          </ul>
-          <div class="text-center">
-            <button
-              class="bg-gray-700 text-sm mt-12 xl:px-24 px-12 sm:px-16 py-2 font-bold rounded"
-              >Click for Pricing and Options
-            </button>
-          </div>
-        </div>
-      </article>
-  
-      <article
-        class="bg-white border border-gray-600 w-8/12 lg:w-full mb-4"
-      >
-        <div class="w-full py-4 bg-gray-700 text-center">
-          <h2 class="flex justify-center font-bold text-2xl">
-          Small Inflatable Movie Screen
+          <h2 class="flex justify-center font-bold text-2xl uppercase">
+          Small 18' Movie Screen
           </h2>
         </div>
         <div class="p-4">
           <ul class="text-gray-900 text-xs list-disc pl-12">
-            <li class="pb-4">Sixteen foot Airscreen <span>&#174;</span> Inflatable Screen</li>
+            <li class="pb-4">18' foot Airscreen <span>&#174;</span> Inflatable Screen</li>
             <li class="pb-4">Christie <span>&#174;</span> HD Projection</li>
             <li class="pb-4">Professional Sound System</li>
             <li class="pb-4">Pre-Show Music and On-Screen Promotional Opportunities</li>
             <li class="pb-4">Whisper Quiet Honda Power</li>
-            <li class="pb-4">Experienced Technician to Deliver, Set Up, Operate and Take Down</li>
+            <li class="pb-4">Experienced Technicians to Deliver, Set Up, Operate and Take Down</li>
             <li class="pb-4">Five Million Dollor Liability Insurance</li>
-            <li class="pb-4">Great for Schools, Backyards, Smaller Audiences</li>
-            <li class="pb-4">Recommended Audience Size up to 250</li>
+            <li class="pb-4">Great for Schools, Backyards, Smaller Audiences, Intimate Setting</li>
           </ul>
           <div class="text-center">
             <button
@@ -162,23 +138,23 @@
         class="bg-white border border-gray-600 w-8/12 lg:w-full mb-4"
       >
         <div class="w-full py-4 bg-gray-700 text-center">
-          <h2 class="flex justify-center font-bold text-2xl">
-          Medium
+          <h2 class="flex justify-center font-bold text-2xl uppercase">
+          Medium 28' Movie Screen
           </h2>
           <span class="text-sm">Most Popular Inflatable Movie Screen</span>
         </div>
         <div class="p-4 ">
           <ul class="text-gray-900 text-xs list-disc pl-12">
-            <li class="pb-4">Twenty-four Foot Airscreen <span>&#174;</span> Inflatable Screen</li>
+            <li class="pb-4">28' Foot Airscreen <span>&#174;</span> Inflatable Screen</li>
             <li class="pb-4">Christie <span>&#174;</span> High Brightness HD Projection</li>
             <li class="pb-4">Professional Sound System with Subs</li>
             <li class="pb-4">Pre-Show Music and On-Screen Promotional Opportunities</li>
             <li class="pb-4">Whisper Quiet Honda Power</li>
-            <li class="pb-4">Two Experienced Technician to Deliver, Set Up, Operate and Take Down</li>
+            <li class="pb-4">Experienced Technicians to Deliver, Set Up, Operate and Take Down</li>
             <li class="pb-4">Whisper Quiet Honda Power</li>
             <li class="pb-4">Five Million Dollor Liability Insurance</li>
-            <li class="pb-4">Increased 'Wow Factor' Great for Schools, Municipal Parks, Corporate and Special Events</li>
-            <li class="pb-4">Recommended Audience Size up to 750</li>
+            <li class="pb-4">Increased 'Wow Factor'</li>
+            <li class="pb-4">Great for Schools, Municipal Parks, Corporate and Special Events</li>
           </ul>
           <div class="text-center">
             <button
@@ -192,22 +168,21 @@
         class="bg-white border border-gray-600 w-8/12 lg:w-full"
       >
         <div class="w-full py-4 bg-gray-700 text-center">
-          <h2 class="flex justify-center font-bold text-2xl">
-          Large Inflatable Movie Screens
+          <h2 class="flex justify-center font-bold text-2xl uppercase">
+          Large 50' Movie Screens
           </h2>
         </div>
         <div class="p-4 ">
           <ul class="text-gray-900 text-xs list-disc pl-12">
-            <li class="pb-4">Forty Foot Airscreen <span>&#174;</span> Inflatable Screen</li>
-            <li class="pb-4">Christie <span>&#174;</span> High Brightness HD Projection</li>
-            <li class="pb-4">Professional Sound System with Subs</li>
+            <li class="pb-4">50' Airscreen <span>&#174;</span> Inflatable Screen</li>
+            <li class="pb-4">Professional Sound System with Subs Scaled to Audience Size</li>
             <li class="pb-4">Pre-Show Music and On-Screen Promotional Opportunities</li>
             <li class="pb-4">Whisper Quiet Honda Power</li>
-            <li class="pb-4">Three Experienced Technician to Deliver, Set Up, Operate and Take Down</li>
+            <li class="pb-4">Experienced Technicians to Deliver, Set Up, Operate and Take Down</li>
             <li class="pb-4">Whisper Quiet Honda Power</li>
             <li class="pb-4">Five Million Dollor Liability Insurance</li>
-            <li class="pb-4">Maximum 'Wow Factor' Great for Large Events, Parks, Special Events</li>
-            <li class="pb-4">Recommended Audience Size up to 2000+ people</li>
+            <li class="pb-4">Maximum Audience Impact</li>
+            <li class="pb-4">Great for Medium and Large Events, Parks, Special Events</li>
           </ul>
           <div class="text-center">
             <button
@@ -242,42 +217,66 @@
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm1.jpg"/>
+          <g-image 
+          alt="Pictue from a balconey looking down on a setup of chairs and wedding decorations, in front of a large movie screen." 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm1.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm2.jpg"/>
+          <g-image 
+          alt="Sunset in a parking lot, cars are parked in front of a large inflatable screen" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm2.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm3.jpg"/>
+          <g-image 
+          alt="Large gathering of people in lawn chairs in front on a giant television screen" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm3.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm4.jpg"/>
+          <g-image 
+          alt="Large panorama of people parked in parking lot at sunset, awaiting an outdoor movie" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm4.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm5.jpg"/>
+          <g-image 
+          alt="Sunny backyard with long pool, canopy and giant tv" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm5.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm6.jpg"/>
+          <g-image 
+          alt="Family sittting on couch in backyard watching a giant television" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm6.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm7.jpg"/>
+          <g-image 
+          alt="People laying in inflatable dingies on grass, watching a movie outdoors." 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm7.jpg"/>
         </a>
       </div>
       <div class="lg:w-1/4 p-4 w-1/2">
         <a class="block relative h-48 rounded overflow-hidden">
-          <g-image alt="" class="object-cover object-center w-full h-full block" src="../odm8.jpg"/>
+          <g-image 
+          alt="Riderless motorcycles parked in front of an inflatable movie screen" 
+          class="object-cover object-center w-full h-full block" 
+          src="../odm8.jpg"/>
         </a>
       </div>
     </div>
@@ -338,27 +337,27 @@
               <div class="grid grid-cols-6 gap-6">
                 <div class="col-span-6">
                   <label for="name" class="block text-sm font-medium">Name</label>
-                  <input type="text" name="name" id="name" autocomplete="given-name" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <input required type="text" name="name" id="name" autocomplete="given-name" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
                 <div class="col-span-6">
                   <label for="email-address" class="block text-sm font-medium">Email address</label>
-                  <input type="text" name="email-address" id="email-address" autocomplete="email" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <input required type="text" name="email-address" id="email-address" autocomplete="email" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
                 <div class="col-span-6">
                   <label for="phone" class="block text-sm font-medium">Phone</label>
-                  <input type="text" name="phone" id="phone" autocomplete="phone" class="mt-1 focus:ring-yellow-400 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <input required type="text" name="phone" id="phone" autocomplete="phone" class="mt-1 focus:ring-yellow-400 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
                 <div class="col-span-6">
                   <label for="subject" class="block text-sm font-medium">Subject</label>
-                  <input type="text" name="subject" id="subject" autocomplete="subject" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <input required type="text" name="subject" id="subject" autocomplete="subject" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
                 <div class="col-span-6">
                   <label for="message" class="block text-sm font-medium">Message</label>
-                  <textarea type="text" name="message" id="message" autocomplete="message" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
+                  <textarea required type="text" name="message" id="message" autocomplete="message" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
                 </div>
 
               </div>

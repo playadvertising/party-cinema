@@ -5,37 +5,37 @@ export default {
   "touchicons": [
     {
       "width": 76,
-      "src": "/assets/static/party-cinemas-thumbnail-logo.f22e9f3.04e33d2fdf66628ed369ee72149fafb4.png"
+      "src": "/assets/static/src/party-cinemas-thumbnail-logo.png?width=76&key=721f488"
     },
     {
       "width": 152,
-      "src": "/assets/static/party-cinemas-thumbnail-logo.62d22cb.04e33d2fdf66628ed369ee72149fafb4.png"
+      "src": "/assets/static/src/party-cinemas-thumbnail-logo.png?width=152&key=721f488"
     },
     {
       "width": 120,
-      "src": "/assets/static/party-cinemas-thumbnail-logo.1539b60.04e33d2fdf66628ed369ee72149fafb4.png"
+      "src": "/assets/static/src/party-cinemas-thumbnail-logo.png?width=120&key=721f488"
     },
     {
       "width": 167,
-      "src": "/assets/static/party-cinemas-thumbnail-logo.dc0cdc5.04e33d2fdf66628ed369ee72149fafb4.png"
+      "src": "/assets/static/src/party-cinemas-thumbnail-logo.png?width=167&key=721f488"
     },
     {
       "width": 180,
-      "src": "/assets/static/party-cinemas-thumbnail-logo.7b22250.04e33d2fdf66628ed369ee72149fafb4.png"
+      "src": "/assets/static/src/party-cinemas-thumbnail-logo.png?width=180&key=721f488"
     }
   ],
   "favicons": [
     {
       "width": 16,
-      "src": "/assets/static/party-cinemas-thumbnail-logo.ce0531f.04e33d2fdf66628ed369ee72149fafb4.png"
+      "src": "/assets/static/src/party-cinemas-thumbnail-logo.png?width=16&key=c331149"
     },
     {
       "width": 32,
-      "src": "/assets/static/party-cinemas-thumbnail-logo.ac8d93a.04e33d2fdf66628ed369ee72149fafb4.png"
+      "src": "/assets/static/src/party-cinemas-thumbnail-logo.png?width=32&key=c331149"
     },
     {
       "width": 96,
-      "src": "/assets/static/party-cinemas-thumbnail-logo.b9532cc.04e33d2fdf66628ed369ee72149fafb4.png"
+      "src": "/assets/static/src/party-cinemas-thumbnail-logo.png?width=96&key=c331149"
     }
   ]
 }

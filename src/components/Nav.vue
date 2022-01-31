@@ -4,11 +4,14 @@
           <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
             <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div class="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
+                <g-link to="/">
                   <span class="sr-only">party cinema</span>
-                  <g-image alt="Party cinema" src="~/party-cinemas-thumbnail-logo.png" width="60" />
+                  <g-image 
+                  alt="Party cinema" 
+                  src="~/party-cinemas-thumbnail-logo.png" 
+                  width="60" />
                   <!-- <img class="h-8 w-auto sm:h-10" src="./srv/"> -->
-                </a>
+                </g-link>
                 <div class="-mr-2 flex items-center md:hidden">
                   <button @click="menu = !menu" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
