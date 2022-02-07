@@ -41,7 +41,7 @@
                   Outdoor Movies</g-link>
                   <g-link class="font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
                   to="/">
-                  AV Plus</g-link>
+                  Plus AV</g-link>
                 </div>
                 <g-link class="font-medium text-gray-500 hover:text-gray-900"
                 @click="this.$emit(scroll)">
