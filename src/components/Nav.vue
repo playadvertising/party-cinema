@@ -1,18 +1,18 @@
 <template>
 <div>
-        <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+        <div class="relative z-50 pt-6 px-4 sm:px-6 lg:px-8">
           <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
             <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-              <div class="flex items-center justify-between w-full md:w-auto">
+              <div class="flex items-center justify-between w-full lg:w-auto">
                 <g-link to="/">
                   <span class="sr-only">party cinema</span>
                   <g-image 
                   alt="Party cinema" 
-                  src="~/party-cinemas-thumbnail-logo.png" 
-                  width="60" />
+                  src="~/party-cinemas-logo.png" 
+                  width="100" />
                   <!-- <img class="h-8 w-auto sm:h-10" src="./srv/"> -->
                 </g-link>
-                <div class="-mr-2 flex items-center md:hidden">
+                <div class="-mr-2 flex items-center lg:hidden">
                   <button @click="menu = !menu" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
                     <!-- Heroicon name: outline/menu -->
@@ -23,29 +23,57 @@
                 </div>
               </div>
             </div>
-            <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+            <div class="hidden lg:block lg:ml-10 lg:pr-4 lg:space-x-8">
                 <g-link class="font-medium text-gray-500 hover:text-gray-900"
                 to="/">
                 Home</g-link>
                 <span 
-                @click="services = !services"
+                @click="odmDrop = !odmDrop"
                 class="relative cursor-pointer font-medium text-gray-500 hover:text-gray-900">
-                  Services ▼
+                  Outdoor Movies ▼
                 </span>
-                <div v-if="services" class="absolute shadow-md p-4 top-8 z-10 bg-white w-56">
+                <div v-if="odmDrop" class="absolute shadow-md p-4 top-8 z-10 bg-white w-56">
                   <g-link class="font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
-                  to="/">
-                  Video Dance Party</g-link>
-                  <g-link class="my-4 font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
                   to="/outdoor-movies/">
                   Outdoor Movies</g-link>
+                  <g-link class="my-4 font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                  to="/outdoor-movies-drive-in-theatre/">
+                  Pop-up Drive-in</g-link>
                   <g-link class="font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
-                  to="/">
-                  Plus AV</g-link>
+                  to="/outdoor-movies-backyard-experience/">
+                  Backyard Experience</g-link>
+                  <g-link class=" my-4 font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                  to="/outdoor-movies-movie-licensing/">
+                  Movie Licensing</g-link>
+                  <g-link class="font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                  to="/outdoor-movies-faq/">
+                  FAQs</g-link>
                 </div>
-                <g-link class="font-medium text-gray-500 hover:text-gray-900"
-                @click="this.$emit(scroll)">
-                Contact</g-link>
+                <span 
+                @click="vdpDrop = !vdpDrop"
+                class="relative cursor-pointer font-medium text-gray-500 hover:text-gray-900">
+                  Video Dance Party ▼
+                </span>
+                <div v-if="vdpDrop" class="absolute shadow-md p-4 top-8 right-96 z-10 bg-white w-56">
+                  <g-link class="font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                  to="/video-dance-party">
+                  Youth & School Events</g-link>
+                  <g-link class="my-4 font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                  to="/video-dance-party">
+                  Corporate Events</g-link>
+                  <g-link class="font-medium block text-gray-500 hover:text-gray-900 hover:bg-gray-50"
+                  to="/video-dance-party-faq">
+                  FAQs</g-link>
+                </div>
+                <a class="font-medium text-gray-500 hover:text-gray-900"
+                href="https://plusav.ca/">
+                PlusAV.ca</a>
+                <a class="font-medium text-gray-500 hover:text-gray-900"
+                href="https://www.studiostream.ca/">
+                StudioStream.ca</a>
+                <div class="font-medium inline-block cursor-pointer text-gray-500 hover:text-gray-900"
+                @click="$emit('scroll')">
+                Contact</div>
             </div>
           </nav>
         </div>
@@ -60,8 +88,8 @@
             From: "opacity-100 scale-100"
             To: "opacity-0 scale-95"
         -->
-        <div v-if="menu" class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-          <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+        <div v-if="menu" class="fixed z-50 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden">
+          <div class="rounded-lg bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div class="px-5 pt-4 flex items-center justify-between">
               <div>
                 <g-image alt="Example image" src="~/party-cinemas-thumbnail-logo.png" width="50" />
@@ -76,45 +104,83 @@
                 </button>
               </div>
             </div>
-            <div class="px-2 pt-2 pb-3 space-y-1">
+            <div class="px-2 pt-2 pb-3 h-auto bg-gray-50 z-40 space-y-1">
               <g-link class="block px-3 py-2 rounded-md text-base font-medium
-                text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                text-gray-700 hover:text-gray-900 hover:bg-gray-100"
                 to="/">
                 Home</g-link>
                 
                 <span class="block px-3 py-2 rounded-md text-base font-medium
-                text-gray-700 bg-gray-50">
-                  Services 
+                text-gray-700 bg-gray-100">
+                  OutdoorMovies 
                 </span>
                 <div class="px-6">
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
-                    text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                    text-gray-700 hover:text-gray-900 hover:bg-gray-100"
                   to="/">
-                  Video Dance Party</g-link>
-                  <g-link class="block px-3 py-2 rounded-md text-base font-medium
-                  text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                  to="/outdoor-movies/">
                   Outdoor Movies</g-link>
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
-                  text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                  text-gray-700 hover:text-gray-900 hover:bg-gray-100"
+                  to="/outdoor-movies/">
+                  Pop-up Drive-in</g-link>
+                  <g-link class="block px-3 py-2 rounded-md text-base font-medium
+                  text-gray-700 hover:text-gray-900 hover:bg-gray-100"
                   to="/">
-                  AV Plus</g-link>
+                  Backyard Experience</g-link>
+                  <g-link class="block px-3 py-2 rounded-md text-base font-medium
+                  text-gray-700 hover:text-gray-900 hover:bg-gray-100"
+                  to="/">
+                  Movie Licensing</g-link>
+                  <g-link class="block px-3 py-2 rounded-md text-base font-medium
+                  text-gray-700 hover:text-gray-900 hover:bg-gray-100"
+                  to="/outdoor-movies-faq/">
+                  FAQs</g-link>
                 </div>  
-                <g-link class="block px-3 py-2 rounded-md text-base font-medium
-                text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                @click="this.$emit('scroll')">
-                Contact</g-link>
+
+                <span class="block px-3 py-2 rounded-md text-base font-medium
+                text-gray-700 bg-gray-100">
+                  Video Dance Party 
+                </span>
+                <div class="px-6">
+                  <g-link class="block px-3 py-2 rounded-md text-base font-medium
+                  text-gray-700 hover:text-gray-900 hover:bg-gray-100"
+                  to="/video-dance-party/">
+                  Youth & School Events</g-link>
+                  <g-link class="block px-3 py-2 rounded-md text-base font-medium
+                  text-gray-700 hover:text-gray-900 hover:bg-gray-100"
+                  to="/video-dance-party/">
+                  Corporate Events</g-link>
+                  <g-link class="block px-3 py-2 rounded-md text-base font-medium
+                  text-gray-700 hover:text-gray-900 hover:bg-gray-100"
+                  to="/video-dance-party-faq">
+                  FAQs</g-link>
+                </div>  
+                <div class="block px-3 py-2 rounded-md text-base font-medium
+                text-gray-700 hover:text-gray-900 hover:bg-gray-100"
+                @click="$emit('scroll')">
+                PlusAV.ca</div>
+                <div class="block px-3 py-2 rounded-md text-base font-medium
+                text-gray-700 hover:text-gray-900 hover:bg-gray-100"
+                @click="$emit('scroll')">
+                StudioStream.ca</div>
+                <div class="block px-3 py-2 rounded-md text-base font-medium
+                text-gray-700 hover:text-gray-900 hover:bg-gray-100"
+                @click="$emit('scroll')">
+                Contact</div>
             </div>
           </div>
         </div>
       </div>
 </template>
 <script>
+
 export default {
+  
   data: function () {
     return {
       menu: false,
-      services: false
+      odmDrop: false,
+      vdpDrop: false
     }
   },
 }

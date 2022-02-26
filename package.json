@@ -12,6 +12,7 @@
     "autoprefixer": "9",
     "gridsome": "^0.7.0",
     "postcss": "7",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "vue-intersection-observer": "^0.1.8"
   }
 }

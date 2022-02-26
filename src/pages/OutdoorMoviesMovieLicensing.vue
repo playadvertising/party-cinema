@@ -1,223 +1,318 @@
 <template>
   <Layout>
-    <OdmNav @scroll="scrollToBottom()" class="z-10 max-w-5xl mx-auto mb-4 bg-white"></OdmNav>
-  <main class="py-12 bg-py text-gray-900 grid gap-y-4">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
-      <p class="mt-2 text-5xl font-extrabold
-      md:text-7xl">
-        Movie Licensing
-      </p>
-       <p class="mt-4 max-w-2xl md:text-lg lg:mx-auto">
-           A Public Performance License is required for anyone that plans on showing a movie that is open to the public. This is according to the Canadian Copyright Act which states that "all public performances of commercially available copyrighted movies must be licensed with the proper rights owner or representative." We've been asked many times if a license is required even if there are no admission costs or if one is needed for non-profit groups. The answer to that is yes. All groups and events intended for public consumption require a license.
-      </p> 
-    </div>
-  </div>
-  </main>
-
-
-  <!-- services teal part -->
-  <div class="py-12 bg-red text-white grid gap-y-4">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
-      <p class="mt-2 text-5xl font-bold
-      md:text-7xl">
-        We're Here To Help
-      </p>
-       <p class="mt-4 max-w-2xl md:text-lg lg:mx-auto">
-           While we don't distribute licenses, we are more than happy to assist you in obtaining one on your behalf if requested. Making your Outdoor Movie event easy to plan and execute is part of our mission. 
-      </p> 
-    </div>
-    
-  </div>
-<!-- hr -->
-    <div class="relative flex py-5">
-      <span class="w-5/12 invisible lg:visible mx-auto border-t-2 border-white"></span>
-  </div>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
-      <h3 class="mt-2 text-xl uppercase font-bold tracking-wide sm:text-2xl">
-        what is the cost of a license?
-      </h3>
-       <p class="mt-2 max-w-2xl md:text-lg lg:mx-auto">
-           The cost of a license varies and depends on a few factors. A general rule of thumb would be that a movie title os on DVD your cost will range from $200-$400 on average. For titles that are in pre-release (in theatres but not on DVD) the cost on average is between $400-$600. The license is good for one screening. 
-      </p> 
-    </div>
-  </div>
-
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
-      <h3 class="mt-2 text-xl font-bold uppercase tracking-wide sm:text-2xl">
-        Who needs one?
-      </h3>
-       <p class="mt-2 max-w-2xl md:text-lg lg:mx-auto">
-           In almost all instances a license is required. For private events taking place at your residence such as a backyard movie, no license is required. For schools you are best to check with your Principal or Librarian to ensure your school subscribes to one of the providers. 
-      </p> 
-    </div>
-  </div>
-
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
-      <h3 class="mt-2 text-xl font-bold uppercase tracking-wide sm:text-2xl">
-        You should know this
-      </h3>
-       <p class="mt-2 max-w-2xl md:text-lg lg:mx-auto">
-           With outdoor movies being primarily a family event there are some restrictions with Disney releases. The studio releases blackout dates every Summer where their films can not be played publicly. Please check with us to ensure the title you are looking for is available on your requested date.
-      </p> 
-    </div>
-  </div>
-
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
-      <h3 class="mt-2 text-xl uppercase font-bold tracking-wide sm:text-2xl">
-        ACF-film.com
-      </h3>
-       <p class="mt-2 max-w-2xl md:text-lg lg:mx-auto">
-        Outdoor Movie license provider. For more information on the studios and titles ACF carries, you can access their website for many great ideas on films you can show on our inflatable screens. The studios they carrry are different from the Criterion so as not to directly compete with each other. 
-      </p> 
-    </div>
-  </div>
-
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
-      <h3 class="mt-2 text-xl uppercase font-bold tracking-wide sm:text-2xl">
-        Need help with a title?
-      </h3>
-       <p class="mt-2 max-w-2xl md:text-lg lg:mx-auto">
-           For a comprehensive review and for detailed information on ant title you are interested in please visit IMDB. They also have many charts available to help you narrow your search for your next outdoor movie screening. 
-      </p> 
-    </div>
-  </div>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
-      <h3 class="mt-2 text-xl uppercase font-bold tracking-wide sm:text-2xl">
-        Criterionpic.com
-      </h3>
-       <p class="mt-2 max-w-2xl md:text-lg lg:mx-auto">
-        Outdoor Movie license provider. Visit Criterion's website to view all of their available movie titles and the studios they carry. Many suggestions are available for your outdoor movie presentation. The studios they carry are different from ACF so as not to directly compete with each other. 
-      </p> 
-    </div>
-  </div>
-  </div>
-
-  <div class="py-12 bg-gray-800 text-white grid gap-y-4">
-  <div class="bg-red">
-    <div class="md:grid md:grid-cols-3">
-      <div class="md:col-span-1 mx-auto">
-        <div class="px-4">
-          <h3 class="md:pt-12 pt-4 pb-8 text-4xl md:text-5xl font-medium 
-          leading-6 text-white">
-            Get in touch.</h3>
-          
-          <span class="text-white text-3xl">
-            <a href="tel:+1-888-853-0053">1-888-853-0053</a></span>
-            <div class="flex gap-4 pt-8">
-            <a>
-              <div class="w-8 md:w-12 bg-yellow-400 rounded">
-                <g-image alt="" class="p-1 object-center w-full h-full" src="../facebook.png"/>
+  <div class="relative bg-white overflow-hidden ">
+  <div class="max-w-7xl mx-auto">
+      
+ 
+      <Nav @scroll="scrollToBottom()" class="z-10 max-w-5xl mx-auto mb-4 bg-white"></Nav>
+ 
+    <div class="relative bg-movie-licensing bg-cover bg-no-repeat
+          overflow-hidden">
+        <div class="absolute top-0 opacity-50 h-full w-full bg-gradient-to-tl from-yellow-200 to-red"></div>
+            <div class="relative z-20 mt-10 pb-5 md:pb-24 lg:pb-48 max-w-2xl
+            px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+              <div class="text-white z-10">
+                <h1 class="text-4xl tracking-tight
+                font-extrabold sm:text-5xl md:text-6xl">
+                  <span class="block">
+                    Movie licensing
+                    </span>
+                </h1>
+                <h2 class="font-bold leading-8 sm:mt-5 
+                lg:text-xl text-md">
+                  A Public Performance License is required for anyone that plans on showing a movie that is open to the public. 
+                </h2>
+                </div>
+                <div class="mt-5 flex">
+                  <div @click="scrollToBottom()" class="mt-3 sm:mt-0">
+                    <a href="#" class="w-full flex items-center 
+                    justify-center
+                    border border-transparent 
+                    text-bold font-bold 
+                    rounded-full text-red bg-py 
+                    hover:bg-white py-4 md:text-xl px-10">
+                      Book Us Today <span class="pb-2 pl-2">&darr;</span>
+                    </a>
+                  </div>
+                </div>
+              
+            </div>
+            <div class="absolute top-4 right-4 flex flex-row gap-x-4">
+            <a href="https://www.facebook.com/partycinemas/">
+              <div class="w-8 md:w-12 bg-gradient-to-tl from-yellow-200 to-red rounded opacity-75">
+                <g-image alt="facebook link" 
+                class="p-1 object-center w-full h-full" 
+                src="../facebook.png"/>
               </div>
             </a>
-            <a>
-              <div class="w-8 md:w-12 bg-yellow-400 rounded">
-                <g-image alt="" class="p-1 object-center w-full h-full" src="../instagram.png"/>
+            <a href="https://www.instagram.com/partycinemas/?hl=en">
+              <div class="w-8 md:w-12 bg-gradient-to-tl from-yellow-200 to-red rounded opacity-75">
+                <g-image alt="instagram link" 
+                class="p-1 object-center w-full h-full" 
+                src="../instagram.png"/>
               </div>
             </a>
             </div>
-            <div class="flex pt-8">
-              <g-link to="/">
-                <button 
-                class="inline-flex w-full justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded text-black bg-yellow-400 hover:bg-yellow-200 ">
-                  Visit our party cinemas homepage
-                </button>
+    </div>
+    </div>
+  </div>
+    <div class="py-12 bg-white">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+      <p class="mt-2 text-4xl leading-8 font-bold text-gray-700 sm:text-4xl">
+        We’re here to help!
+      </p>
+       <p class="my-4 leading-8 max-w-2xl text-2xl text-gray-400">
+        While we don’t distribute licenses, we are more than happy to assist you in obtaining one on your behalf if requested. Making your Outdoor Movie event easy to plan and execute is part of our mission.
+      </p> 
+      <g-link 
+      to="/outdoor-movies-faq" 
+      class="text-gray-700 cursor-pointer hover:text-red font-bold text-xl">
+        Learn more on our FAQ's page <span>&rarr;</span>
+        </g-link>
+    
+  </div>
+</div>
+
+<div class="py-12 bg-white">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+      <p class="mt-2 text-4xl leading-8 font-bold text-gray-700 sm:text-4xl">
+        What’s the cost, and who needs one? 
+      </p>
+       <p class="my-4 leading-8 max-w-2xl text-2xl text-gray-400">
+              The cost of a license varies and depends on a few factors. A general rule of thumb would be that a movie title os on DVD your cost will range from $200-$400 on average. For titles that are in pre-release (in theatres but not on DVD) the cost on average is between $400-$600. The license is good for one screening. In almost all instances a license is required. For private events taking place at your residence such as a backyard movie, no license is required. For schools you are best to check with your Principal or Librarian to ensure your school subscribes to one of the providers.
+      </p> 
+      <g-link
+      to="/outdoor-movies-faq"  
+      class="text-gray-700 cursor-pointer hover:text-red font-bold text-xl">
+        Learn more on our FAQ's page 
+        <span>&rarr;</span>
+      </g-link>
+    
+  </div>
+</div>
+    
+
+<div class="py-10 bg-white">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+      <p class="text-4xl pb-4 leading-8 font-bold text-gray-700 sm:text-4xl">
+        For private events taking place at your residence such as a backyard movie, no license is required!
+      </p>
+      <a 
+      @click="scrollToBottom()"
+      class="text-gray-700 cursor-pointer 
+      hover:text-red font-bold text-xl">
+      Book Us Today<span>&darr;</span></a>
+    
+  </div>
+</div>
+
+    <!-- <div class="mt-10">
+      <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+        <div class="relative">
+          
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red text-white">
+            
+              
+            </div>
+            <h3 class="ml-16 text-2xl leading-6 font-medium text-gray-900">Video Dance Party</h3>
+            <h4 class="text-sm ml-16 pt-2 text-red font-semibold tracking-wide">
+              <span>School dances | </span>
+              <span>Youth dances | </span>
+              <span>Adult dances | </span>
+              <span>Corporate bookings | </span>
+              <span>Private events | </span>
+              <span>Fundraisers</span>
+              </h4>
+          
+          <div class="mt-2 ml-16 text-base text-gray-500">
+            <p>Our most popular event. A Video Dance Party! We have compiled the best VJs/DJs to bring your event and amazing
+            performance. Each of our Video Dance DJ's (VJ's) has an area of expertise: Youth dances, adult dance and club style events.
+            We service event planners, corporations, recreation and parks, festivals, events and or course private parties 
+            and fundraisers.
+            </p>
+            <br/>
+            <p>
+            We also host our own Party Cinemas branded Community Youth Video Dance Fundraiser Events across Ontario in communities
+            just like yours. These monthly Video Dance Fundraiser Events help raise thousands of dollars a month for
+            various groups and organizations.</p>
+            <br />
+            Please visit our website dedicated to Video Dance Party events to learn more. 
+          </div>
+          <button 
+              @click="vdpTooltip = !vdpTooltip"
+              class="relative shadow w-1/4 md:w-1/3 ml-16 mt-4 flex items-center justify-center px-2 py-1 border border-transparent text-base font-medium rounded-md text-white bg-red md:py-2">
+              <div v-if="vdpTooltip" class="absolute mx-2 bottom-14 shadow-md">
+                <div class="bg-gray-600 text-white text-xs rounded py-1 px-4 bottom-full">
+                  This site is under maintenance. Please fill out the form below to get more info.
+                  <svg class="absolute text-gray-600 h-2 w-full top-full" x="0px" y="0px" viewBox="0 0 255 255" xml:space="preserve"><polygon class="fill-current" points="0,0 127.5,127.5 255,0"/></svg>
+                </div>
+              </div>
+                VISIT SITE
+              </button>
+        </div>
+
+        <div class="relative">
+          
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-emerald text-white">
+            
+            </div>
+            <h3 class="ml-16 text-2xl leading-6 font-medium text-gray-900">Outdoor Movies</h3>
+            <h4 class="text-sm ml-16 pt-2 text-emerald font-semibold tracking-wide">
+              <span>Festivals | </span>
+              <span>Events | </span>
+              <span>Schools | </span>
+              <span>Corporate | </span>
+              <span>Indoors | </span>
+              <span>Outdoors | </span>
+              <span>Backyards | </span>
+              <span>Fundraisers</span>
+              </h4>
+          
+          <div class="mt-2 ml-16 text-base text-gray-500">
+            <p>Outdoor movies, big screen gaming, promotions, advertising, presentations are just a few of the exciting possibilities 
+            for you to consider. 
+            </p>
+            <br />
+            <p>
+              Our Big screen events are larger than life. With our inflatable screens spanning up to 40 feet
+              wide and with a height of over 3 storeys! We offer a variety of screen sizes to suit your specific needs 
+              and budget. Starting at jsut 8' wide for more intimate crowds. Complimenting our large screens, we also offer an 
+              assortment of LED displays.
+            </p>
+          </div>
+          <div class="rounded-md shadow w-1/4 md:w-1/3 ml-16 mt-4">
+              <g-link to="/outdoor-movies" class=" uppercase flex items-center justify-center px-2 py-1 border border-transparent text-base font-medium rounded-md text-white bg-emerald md:py-2">
+                visit site
               </g-link>
             </div>
-            <!-- <div class="flex pt-8">
-              <button class="inline-flex w-full justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded text-black bg-yellow-400 hover:bg-yellow-200 ">
-                Visit our video dance party page
+        </div>
+
+        <div class="relative md:pt-4">
+          
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-sky text-white">
+            
+            </div>
+            <h3 class="ml-16 text-2xl leading-6 font-medium text-gray-900">Plus AV</h3>
+            <h4 class="text-sm ml-16 pt-2 text-sky font-semibold tracking-wide">
+              <span>Equipment rentals | </span>
+              <span>On-site technicians | </span>
+              <span>Event consultants | </span>
+              <span>Installation services</span>
+              </h4>
+          
+          <div class="mt-2 ml-16 text-base text-gray-500">
+            <p>A professional Audio Visual agency that gives your corporate event the look it deserves. It's that simple.</p>
+          </div>
+          
+              <button 
+              @click="avTooltip = !avTooltip"
+              class="relative shadow w-1/4 md:w-1/3 ml-16 mt-4 flex items-center justify-center px-2 py-1 border border-transparent text-base font-medium rounded-md text-white bg-sky md:py-2">
+              <div v-if="avTooltip" class="absolute mx-2 bottom-14 shadow-md">
+                <div class="bg-gray-600 text-white text-xs rounded py-1 px-4 bottom-full">
+                  This site is under maintenance. Please fill out the form below to get more info.
+                  <svg class="absolute text-gray-600 h-2 w-full top-full" x="0px" y="0px" viewBox="0 0 255 255" xml:space="preserve"><polygon class="fill-current" points="0,0 127.5,127.5 255,0"/></svg>
+                </div>
+              </div>
+                VISIT SITE
               </button>
-            </div> -->
+              
+            
         </div>
       </div>
-      <div class="mt-5 md:mt-10 p-4 md:col-span-2 max-w-4xl">
-        <form action="https://api.form-data.com/f/vhwglzikey8cbjkhgis4kn"
-          method="post">
-          <div class="g-recaptcha"
-            data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR">
-          </div>
-          <!-- honeypot -->
-          <input type="text" name="xx_password" class="hidden" tabindex="-1" autocomplete="off">
-          <div class="shadow overflow-hidden sm:rounded-md text-gray-700">
-            <div class="px-4 py-5 bg-white sm:p-6">
-              <div class="grid grid-cols-6 gap-6">
-                <div class="col-span-6">
-                  <label for="name" class="block text-sm font-medium">Name</label>
-                  <input required type="text" name="name" id="name" autocomplete="given-name" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
-                </div>
-
-                <div class="col-span-6">
-                  <label for="email-address" class="block text-sm font-medium">Email address</label>
-                  <input required type="text" name="email-address" id="email-address" autocomplete="email" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
-                </div>
-
-                <div class="col-span-6">
-                  <label for="phone" class="block text-sm font-medium">Phone</label>
-                  <input required type="text" name="phone" id="phone" autocomplete="phone" class="mt-1 focus:ring-yellow-400 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
-                </div>
-
-                <div class="col-span-6">
-                  <label for="subject" class="block text-sm font-medium">Subject</label>
-                  <input required type="text" name="subject" id="subject" autocomplete="subject" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
-                </div>
-
-                <div class="col-span-6">
-                  <label for="message" class="block text-sm font-medium">Message</label>
-                  <textarea required type="text" name="message" id="message" autocomplete="message" class="mt-1 focus:ring-yellow-500 focus:border-red block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" />
-                </div>
-
-              </div>
-            </div>
-            <div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
-              <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded text-black bg-yellow-400 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red">
-                Submit
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
     </div>
+  </div>
+</div> -->
 
-  <div class="hidden sm:block" aria-hidden="true">
-    <div class="py-5">
-      <div class="border-t border-red" />
+<div class="flex py-5 items-center">
+    <div class="flex-grow border-t border-gray-200"></div>
+</div>
+
+    
+    <div class="py-12 bg-white text-center">
+      <g-image 
+      class="mx-auto"
+      alt="Party cinema" 
+      src="~/party-cinemas-thumbnail-logo.png" 
+      width="60" />
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+        <p class="mt-2 text-4xl leading-8 font-bold text-gray-700 sm:text-4xl">
+        So many parties, so many happy clients.</p>
+        <p class="my-4 leading-8 max-w-2xl text-2xl text-gray-400">
+        The proof is in the pudding, so they say. For close to 20 years, Party Cinemas has been entertaining crowds of all sizes – and it’s starting to add up!
+        </p>
+        <div class="text-red font-extrabold text-4xl">600</div>
+        <div class="mb-4 leading-8 font-bold text-xl text-gray-800">
+          Video dance parties
+        </div>
+        <div class="text-red font-extrabold text-4xl">2300</div>
+        <div class="mb-4 leading-8 font-bold text-xl text-gray-800">
+          Drive-in movie nights
+        </div>
+        <div class="text-red font-extrabold text-4xl">All of them</div>
+        <div class="mb-4 leading-8 font-bold text-xl text-gray-800">
+          Happy clients
+        </div>
     </div>
   </div>
 
-  
-  
-  
-</div>
-<!-- hr -->
-    
-  <!-- <div class="lg:inset-y-0 lg:right-0 lg:w-1/2">
-    <g-image class="h-24 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="../inflatable-screen-rental.jpg" alt=""/>
-  </div> -->
-</div>
-    
-      <div class="bg-gray-800 text-center text-gray-200 pb-4">
-        <div class="text-sm">Copyright <span>&#169;</span> 
-        2020 Party Cinemas. All rights reserved
-        </div>
-      </div>
-    
-  
 
+  <!-- testimonial area -->
+  
+  <div class="mb-4 py-12 border-2 border-gray-200 rounded-lg max-w-2xl mx-auto">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+      <p class="mt-2 text-lg leading-8 font-bold text-gray-700">
+       Testimonial from: Oliver Ward (Oliwoodfilms)
+      </p>
+       <p class="my-4 max-w-2xl text-base text-gray-400">
+        "I run a film festival in Huntsville called CineMuskoka. Anthony and his team installed their larger than life 40 foot inflatable screen right in the center of town in our Park. It was incredible! Amazing quality and a spectacle for passersby. The screen itself acted as advertising for our event. I can highly recommend Party Cinemas as a professional, easy to work with company. We will definitely be using them again."
+        </p>  
+   
+  </div>
+</div>
+
+<div class="mb-4 py-12 border-2 border-gray-200 rounded-lg max-w-2xl mx-auto">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+      <p class="mt-2 text-lg leading-8 font-bold text-gray-700">
+       Testimonial from: Geoff And Dena Silverberg
+      </p>
+       <p class="my-4 max-w-2xl text-base text-gray-400">
+        "Wow! what an incredible night. Thank you Anthony for making my son's 16th birthday a one of kind outstanding event! Anthony showed up early, ensured everything was working and returned promptly to remove. He was gracious and responded to every question I had regarding the event. A truly wonderful one of kind birthday! Thank you Anthony and Party Cinemas!"      
+          </p>  
+   
+  </div>
+</div>
+
+<div class="mb-8 py-12 border-2 border-gray-200 rounded-lg max-w-2xl mx-auto">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+      <p class="mt-2 text-lg leading-8 font-bold text-gray-700">
+       Testimonial from: Halton Agricultural Society
+      </p>
+       <p class="my-4 max-w-2xl text-base text-gray-400">
+      "Party Cinemas was a pleasure to work with. Excellent service from bookings, day of events and follow up! Thank you for making our first year of Flicks @ the Fairgrounds a success!"
+       </p>  
+   
+  </div>
+</div>
+  
+<ContactForm></ContactForm>
+<Footer></Footer>
   </Layout>
+  
 </template>
 
 <script>
-import OdmNav from "../components/OdmNav.vue"
+import Nav from "../components/Nav.vue"
+import ContactForm from "../components/ContactForm.vue"
+import Footer from "../components/Footer.vue"
 export default {
-  components: { OdmNav },
+  components: { Nav, ContactForm, Footer },
   metaInfo: {
     title: 'Movie Licensing'
   },

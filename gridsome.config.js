@@ -9,8 +9,8 @@ module.exports = {
    
   ],
   icon: {
-    favicon: './src/party-cinemas-thumbnail-logo.png',
-    touchicon: './src/party-cinemas-thumbnail-logo.png'
+    favicon: './src/party-cinemas-logo.png',
+    touchicon: './src/party-cinemas-logo.png'
   },
   css: {
     loaderOptions: {

@@ -1,5 +1,5 @@
 <template>
-  <div class="font-glasgow">
+  <div class="font-Quicksand">
    
     <slot/>
   </div>

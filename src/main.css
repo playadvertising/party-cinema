@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 @import "tailwindcss/base";
 
 @import "tailwindcss/components";
@@ -5,6 +7,6 @@
 @import "tailwindcss/utilities";
 
   @font-face {
-      font-family: 'Glasgow';
-      src: local('Glasgow'), url(./fonts/Glasgow-ExBd.ttf) format('ttf');
+      font-family: 'Quicksand';
+      src: local('Quicksand'), url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap') format('ttf');
     }

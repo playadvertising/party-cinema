@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <OdmNav @scroll="scrollToBottom()" class="z-10 max-w-5xl mx-auto mb-4 bg-white"></OdmNav>
+    <Nav @scroll="scrollToBottom()" class="z-10 max-w-5xl mx-auto mb-4 bg-white"></Nav>
     <div class="font-glasgow relative bg-backyard-movie bg-cover bg-no-repeat
     overflow-hidden">
   <div class="max-w-5xl mx-auto">
@@ -400,9 +400,9 @@
 </template>
 
 <script>
-import OdmNav from "../components/OdmNav.vue"
+import Nav from "../components/Nav.vue"
 export default {
-  components: { OdmNav },
+  components: { Nav },
   metaInfo: {
     title: 'Standard Services'
   },
