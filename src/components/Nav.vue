@@ -112,24 +112,24 @@
                 
                 <span class="block px-3 py-2 rounded-md text-base font-medium
                 text-gray-700 bg-gray-100">
-                  OutdoorMovies 
+                  Outdoor Movies 
                 </span>
                 <div class="px-6">
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
                     text-gray-700 hover:text-gray-900 hover:bg-gray-100"
-                  to="/">
+                  to="/outdoor-movies">
                   Outdoor Movies</g-link>
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
                   text-gray-700 hover:text-gray-900 hover:bg-gray-100"
-                  to="/outdoor-movies/">
+                  to="/outdoor-movies-drive-in-theatre/">
                   Pop-up Drive-in</g-link>
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
                   text-gray-700 hover:text-gray-900 hover:bg-gray-100"
-                  to="/">
+                  to="/outdoor-movies-backyard-experience">
                   Backyard Experience</g-link>
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
                   text-gray-700 hover:text-gray-900 hover:bg-gray-100"
-                  to="/">
+                  to="/outdoor-movies-movie-licensing">
                   Movie Licensing</g-link>
                   <g-link class="block px-3 py-2 rounded-md text-base font-medium
                   text-gray-700 hover:text-gray-900 hover:bg-gray-100"
@@ -155,15 +155,15 @@
                   to="/video-dance-party-faq">
                   FAQs</g-link>
                 </div>  
-                <div class="block px-3 py-2 rounded-md text-base font-medium
+                <g-link class="block px-3 py-2 rounded-md text-base font-medium
                 text-gray-700 hover:text-gray-900 hover:bg-gray-100"
-                @click="$emit('scroll')">
-                PlusAV.ca</div>
-                <div class="block px-3 py-2 rounded-md text-base font-medium
+                to="https://plusav.ca/">
+                PlusAV.ca</g-link>
+                <g-link class="block px-3 py-2 rounded-md text-base font-medium
                 text-gray-700 hover:text-gray-900 hover:bg-gray-100"
-                @click="$emit('scroll')">
-                StudioStream.ca</div>
-                <div class="block px-3 py-2 rounded-md text-base font-medium
+                to="https://www.studiostream.ca/">
+                StudioStream.ca</g-link>
+                <div class="block cursor-pointer px-3 py-2 rounded-md text-base font-medium
                 text-gray-700 hover:text-gray-900 hover:bg-gray-100"
                 @click="$emit('scroll')">
                 Contact</div>

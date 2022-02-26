@@ -21,12 +21,12 @@ module.exports = {
       backgroundImage: {
         'outdoor-movie': "url('./indexbanner.jpg')",
         'backyard-movie': "url('./backyard-movie-banner.jpg')",
-        'video-dance': "url('http://178.128.228.49/wp-content/uploads/2022/02/video_dance_party_hero.jpg')",
-        'movie-licensing': "url('http://178.128.228.49/wp-content/uploads/2022/02/movie_licensing.jpg')",
-        'odm-faq': "url('http://178.128.228.49/wp-content/uploads/2022/02/outdoor_movie.jpg')",
+        'video-dance': "url('./video_dance_party_herob.jpg')",
+        'movie-licensing': "url('./ml.jpg')",
+        'odm-faq': "url('./om.jpg')",
         'vdp-faq': "url('./video-dance-party-event-company.jpg')",
-        'odm': "url('http://178.128.228.49/wp-content/uploads/2022/02/community-movie-night.jpg')",
-        'odmd': "url('http://178.128.228.49/wp-content/uploads/2022/02/pop-up-drive-in-movies-1.jpg')",
+        'odm': "url('./community-movie-night.jpg')",
+        'odmd': "url('./pop-up-drive-in-movies-1.jpg')",
         'be': "url('./odm6.jpg')"
         
       },
