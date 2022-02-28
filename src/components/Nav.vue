@@ -7,9 +7,10 @@
                 <g-link to="/">
                   <span class="sr-only">party cinema</span>
                   <g-image 
+                  class="h-14 w-28"
                   alt="Party cinema" 
                   src="~/party-cinemas-logo.png" 
-                  width="100" />
+                  />
                   <!-- <img class="h-8 w-auto sm:h-10" src="./srv/"> -->
                 </g-link>
                 <div class="-mr-2 flex items-center lg:hidden">

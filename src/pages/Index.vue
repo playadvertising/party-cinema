@@ -35,7 +35,8 @@
                     text-bold font-bold 
                     rounded-full text-red bg-py 
                     hover:bg-white py-4 md:text-xl px-10">
-                      Book Us Today <span class="pb-2 pl-2">&darr;</span>
+                      Book Us Today 
+                      <span class="pb-2 pl-2">&darr;</span>
                     </a>
                   </div>
                 </div>
@@ -74,8 +75,8 @@
       </p> 
       <g-link to="/outdoor-movies-faq/" class="text-gray-700 
       cursor-pointer hover:text-red 
-      font-bold text-xl">L
-      earn more on our FAQ's page 
+      font-bold text-xl">
+      Learn more on our FAQ's page 
       <span>&rarr;</span></g-link>
     
   </div>
@@ -84,7 +85,7 @@
 <section class="text-gray-600 body-font">
   <div class="container px-5 py-12 mx-auto">
     <div class="flex flex-wrap justify-center -m-4">
-      <div class="w-1/3">
+      <div class="md:w-1/3 w-full">
         <div class="p-4">
           <a class="block relative h-48 rounded overflow-hidden">
             <g-image alt=""
@@ -114,7 +115,7 @@
           </a>
         </div>
       </div>
-      <div class="max-w-3xl w-1/2 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl w-full md:w-1/2 px-4 sm:px-6 lg:px-8">
         
           <p class="mt-2 text-4xl leading-8 font-bold text-gray-700 sm:text-4xl">
           Our corporate events become annual events.          </p>
@@ -177,12 +178,12 @@
         <div class="p-4">
           <span class="bg-blue-100 rounded p-1">
             <span 
-            class="text-blue-500 font-bold text-sm pl-2 pr-56">
+            class="text-blue-500 font-bold text-sm pl-2 pr-20 md:pr-56">
               Video Dance Party</span>
           </span>
           <h2 class="font-bold mb-4 mt-2 
           text-2xl text-gray-800 ">
-          Dance like nobody's watching.<span class="text-white">................</span>
+          Dance like nobody's watching.
           </h2> 
           <p class="text-gray-500 hover:text-red">
             More Details<span>&rarr;</span>
@@ -212,12 +213,12 @@
         <div class="px-4 py-6">
           <span class="bg-blue-100 rounded p-1">
             <span 
-            class="text-blue-500 font-bold text-sm pl-2 pr-56">
+            class="text-blue-500 font-bold text-sm pl-2 pr-20 md:pr-56">
               Outdoor Movies</span>
           </span>
           <h2 class="font-bold mb-4 mt-2 
           text-2xl text-gray-800 ">
-          Big screen movie experience, anywhere.<span class="text-white">................</span>
+          Big screen movie experience, anywhere.
           </h2> 
           <p class="text-gray-500 hover:text-red">
             More Details<span>&rarr;</span>
@@ -241,7 +242,7 @@
       <div class="py-1 ">
         <div class="p-4">
           <span class="bg-blue-100 rounded p-1">
-            <span class="text-blue-500 font-bold text-sm pl-2 pr-56">Plus AV</span>
+            <span class="text-blue-500 font-bold text-sm pl-2 pr-20 md:pr-56">Plus AV</span>
           </span>
           <h2 class="font-bold mb-4 mt-2 
           text-2xl text-gray-800 ">
@@ -269,7 +270,7 @@
       <div class="py-1 ">
         <div class="p-4">
           <span class="bg-blue-100 rounded p-1">
-            <span class="text-blue-500 font-bold text-sm pl-2 pr-56">Studio streaming</span>
+            <span class="text-blue-500 font-bold text-sm pl-2 pr-20 md:pr-56">Studio streaming</span>
           </span>
           <h2 class="font-bold mb-4 mt-2 
           text-2xl text-gray-800 ">

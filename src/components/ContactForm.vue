@@ -55,7 +55,8 @@
 
               </div>
             </div>
-            <div class="px-4 py-3 text-right sm:px-6">
+            <div class="px-4 py-3 flex justify-between sm:px-6">
+              <a class="text-2xl" href="tel:1-888-853-0053">1-888-853-0053</a>
               <button type="submit" 
               class="inline-flex justify-center py-4 px-8 border border-transparent 
               shadow-sm text-sm font-medium 

@@ -244,7 +244,7 @@
         <p class="my-4 leading-8 max-w-2xl text-2xl text-gray-400">
         The proof is in the pudding, so they say. For close to 20 years, Party Cinemas has been entertaining crowds of all sizes – and it’s starting to add up!
         </p>
-        <div class="text-red font-extrabold text-4xl">600</div>
+        <div class="text-red font-extrabold text-4xl">1100</div>
         <div class="mb-4 leading-8 font-bold text-xl text-gray-800">
           Video dance parties
         </div>
