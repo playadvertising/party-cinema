@@ -134,7 +134,152 @@ Enjoy the red carpet treatment at home!      </p>
   <p>Your browser doesn't support HTML5 video.</p>
 </video>
      
+<div class="flex flex-wrap pt-24 justify-center">
+<div class="md:max-w-lg lg:max-w-md px-4 py-4 my-auto hover:-translate-y-1 ease-in transform duration-200 cursor-pointer">
     
+    <div 
+    @click="s1 = !s1"
+    class="relative bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
+      
+      
+        <div 
+        class="md:flex-shrink-0">
+
+          <g-image 
+          src="../odm6.jpg" 
+          alt="uploaded cover image"
+          class="object-cover h-full w-full 
+          rounded-lg rounded-b-none">
+          </g-image>
+        </div>
+      
+      
+      <div class="py-1 ">
+        <div class="p-4">
+          <h2 class="font-bold mb-4 mt-2 
+          text-2xl text-gray-800 ">
+          DIY
+          </h2> 
+          <span>For the Tech-Savvy Family<br/>Starting at $345 + HST</span>
+          <p class="text-gray-500 hover:text-red">
+            More Details<span>&rarr;</span>
+          </p>
+        </div>
+      </div>
+
+      <div 
+      v-if="s1 ===  true"
+      class="absolute bg-gray-100 leading-8 pl-8 pt-4 top-0 text-gray-900 select-none
+      h-full w-full rounded-md z-10">
+        <ul class="list-disc">
+          <li>Backyard Series Inflatable Screen</li>
+          <li>HD Projection</li>
+          <li>Professional Sound</li>
+          <li>HDMI Input for your Devices (Laptop, Gaming System, etc)</li>
+          <li>Incidental Equipment (cables etc)</li>
+          <li>Blu-Ray/DVD Player (if Required)</li>
+          <li>Overnight Rental</li>
+          <li>Equipment is dropped off with a tutorial provided</li>
+        </ul>
+      </div>
+    </div> 
+  
+  </div>
+  <div 
+  @click="s2 = !s2"
+  class="md:max-w-lg lg:max-w-md px-4 py-4 my-auto hover:-translate-y-1 ease-in transform duration-200 cursor-pointer">
+    <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
+      
+      
+        <div 
+        class="md:flex-shrink-0">
+
+          <g-image 
+          src="../odm5.jpg" 
+          alt="uploaded cover image"
+          class="object-cover h-full w-full rounded-lg rounded-b-none">
+          </g-image>
+        </div>
+      
+      
+      <div class="py-1 ">
+        <div class="px-4 py-10">
+          
+          <h2 class="font-bold mb-4 mt-2 
+          text-2xl text-gray-800 ">
+          Premium Service
+          </h2> 
+          <span>Starting at $600 + HST<br/>
+          Full-Service Experience - Sit Back & Enjoy the Show!</span>
+          <p class="text-gray-500 hover:text-red">
+            More Details<span>&rarr;</span>
+          </p>
+        </div>
+      </div>
+    </div> 
+    <div 
+      v-if="s2 ===  true"
+      class="absolute bg-gray-100 leading-8 pl-8 pt-4 top-0 text-gray-900 select-none
+      h-full w-full rounded-md z-10 ">
+        <ul class="list-disc">
+          <li>Upgraded Commercial Series Inflatable Screen</li>
+          <li>Pro HD Projection (minimum 6,000 lumens)</li>
+          <li>Hi-Fi Professional Sound</li>
+          <li>HDMI Input for your Devices (Laptop, Gaming System, etc)</li>
+          <li>Blu-Ray Player (if Required)</li>
+          <li>Incidental Equipment (cables etc)</li>
+          <li>Complete Set-Up/Take Down</li>
+          <li>One Film Duration (Additional Time Available)</li>
+          <li>Portable Power Available</li>
+        </ul>
+      </div>
+  </div>
+  <div 
+  @click="s3 = !s3"
+  class="md:max-w-lg lg:max-w-md px-4 py-4 my-auto hover:-translate-y-1 ease-in transform duration-200 cursor-pointer">
+    
+      <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
+        <div class="md:flex-shrink-0">
+
+          <img src="../odm-by1 (1).jpg" alt="uploaded cover image"
+            class="object-cover h-full w-full rounded-lg rounded-b-none">
+
+        </div>
+    
+      
+      <div class="py-1 ">
+        <div class="p-4">
+      
+          <h2 class="font-bold mb-4 mt-2 
+          text-2xl text-gray-800 ">
+          Red Carpet Experience
+          </h2> 
+          <span>Starting at $880 + HST <br/>The Ultimate Full-Service Backyard Movie Night</span>
+          <p class="text-gray-500 hover:text-red">
+            More Details<span>&rarr;</span>
+          </p>
+        </div>
+      </div>
+      </div>
+      <div 
+      v-if="s3 ===  true"
+      class="absolute bg-gray-100 leading-8 pl-8 pt-4 top-0 text-gray-900 select-none
+      h-full w-full rounded-md z-10 ">
+        <ul class="list-disc">
+          <li>Upgraded Commercial Series Inflatable Screen</li>
+          <li>Pro HD Projection (minimum 6,000 lumens)</li>
+          <li>Hi-Fi Professional Sound</li>
+          <li>HDMI Input for your Devices (Laptop, Games, etc)</li>
+          <li>Blu-Ray Player or Media Device (if Required)</li>
+          <li>Incidental Equipment</li>
+          <li>Popcorn Machine w/Unlimited Popcorn</li>
+          <li>Red Carpet Entrance w/Stanchions (Space Permitting)</li>
+          <li>Portable Power (if Required)</li>
+          <li>Delivery, Set Up, Operation, Take Down</li>
+        </ul>
+      </div>
+  </div>
+</div>
 
 <div class="flex py-5 items-center">
     <div class="flex-grow border-t border-gray-200"></div>
@@ -229,6 +374,13 @@ export default {
   components: { Nav, ContactForm,Footer },
   metaInfo: {
     title: 'Outdoor Movies'
+  },
+  data: function () {
+    return {
+      s1: false,
+      s2: false,
+      s3: false,
+    }
   },
   methods: {
     scrollToBottom() {
