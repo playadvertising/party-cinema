@@ -1,15 +1,15 @@
 <template>
   <Layout>
   <div class="relative bg-white overflow-hidden ">
-  <div class="max-w-7xl mx-auto">
+  <div>
       
  
       <Nav @scroll="scrollToBottom()" class="z-10 max-w-5xl mx-auto mb-4 bg-white"></Nav>
  
-    <div class="relative bg-vdp-faq bg-cover bg-clip-padding bg-no-repeat
+    <div class="relative bg-vdp-faq bg-cover lg:h-screen bg-clip-padding bg-no-repeat
           overflow-hidden">
         <div class="absolute top-0 opacity-75 h-full w-full bg-gradient-to-tl from-yellow-200 to-red"></div>
-            <div class="relative z-20 pb-36 lg:pb-56 max-w-2xl
+            <div class="relative z-20 pb-36 lg:pb-56 max-w-4xl mx-auto
             px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div class="text-white z-10">
                 <h1 class="text-4xl tracking-tight

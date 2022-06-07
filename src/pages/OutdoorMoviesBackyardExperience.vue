@@ -18,17 +18,17 @@
   <Layout>
     <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-white overflow-hidden ">
-  <div class="max-w-7xl mx-auto">
+  <div>
       
  
       <Nav @scroll="scrollToBottom()" class="z-10 max-w-5xl mx-auto mb-4 bg-white"></Nav>
  
         
       
-      <div class="relative bg-be bg-cover bg-no-repeat
+      <div class="relative bg-be bg-cover lg:h-screen bg-no-repeat
           overflow-hidden">
         <div class="absolute top-0 opacity-75 h-full w-full bg-gradient-to-tl from-yellow-200 to-red"></div>
-            <div class="relative z-20 mt-10 py-20 md:py-36 lg:py-48 max-w-2xl
+            <div class="relative z-20 mt-10 py-20 md:py-36 lg:py-48 max-w-4xl mx-auto
             px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div class="text-white z-10">
                 <h1 class="text-4xl tracking-tight
@@ -130,7 +130,7 @@ Enjoy the red carpet treatment at home!      </p>
 
 
         <video class="mt-8" controls>
-        <source src="../outdoor-movie-rentals.mp4" type="video/mp4">
+        <source src="../1111.mp4" type="video/mp4">
   <p>Your browser doesn't support HTML5 video.</p>
 </video>
      
@@ -146,7 +146,7 @@ Enjoy the red carpet treatment at home!      </p>
         class="md:flex-shrink-0">
 
           <g-image 
-          src="../odm6.jpg" 
+          src="../diy-backyard-movie-rental.jpg" 
           alt="uploaded cover image"
           class="object-cover h-full w-full 
           rounded-lg rounded-b-none">
@@ -195,7 +195,7 @@ Enjoy the red carpet treatment at home!      </p>
         class="md:flex-shrink-0">
 
           <g-image 
-          src="../odm5.jpg" 
+          src="../vip.jpeg" 
           alt="uploaded cover image"
           class="object-cover h-full w-full rounded-lg rounded-b-none">
           </g-image>
@@ -241,7 +241,7 @@ Enjoy the red carpet treatment at home!      </p>
       <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
         <div class="md:flex-shrink-0">
 
-          <img src="../odm-by1 (1).jpg" alt="uploaded cover image"
+          <img src="../premium.jpg" alt="uploaded cover image"
             class="object-cover h-full w-full rounded-lg rounded-b-none">
 
         </div>
@@ -305,7 +305,7 @@ Enjoy the red carpet treatment at home!      </p>
         </div>
         <div class="text-red font-extrabold text-4xl">2300</div>
         <div class="mb-4 leading-8 font-bold text-xl text-gray-800">
-          Drive-in movie nights
+          Outdoor movie nights
         </div>
         <div class="text-red font-extrabold text-4xl">All of them</div>
         <div class="mb-4 leading-8 font-bold text-xl text-gray-800">

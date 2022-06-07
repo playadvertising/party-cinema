@@ -2,18 +2,18 @@
   <Layout>
     <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-white overflow-hidden ">
-  <div class="max-w-7xl mx-auto">
+  <div class="">
       
  
       <Nav @scroll="scrollToBottom()" class="z-10 max-w-5xl mx-auto mb-4 bg-white"></Nav>
  
         
       
-      <div class="relative bg-outdoor-movie bg-cover bg-clip-padding bg-no-repeat
+      <div class="relative bg-outdoor-movie bg-cover lg:h-screen bg-clip-padding bg-no-repeat
           overflow-hidden">
         <div class="absolute top-0 opacity-50 h-full w-full bg-gradient-to-tl from-yellow-200 to-red"></div>
         
-            <div class="relative z-10 mt-10 pb-5 md:pb-10 lg:pb-20 max-w-2xl
+            <div class="relative z-10 mt-10 pb-5 md:pb-10 lg:pb-20 max-w-4xl mx-auto
             px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div class="text-white">
                 <h1 class="text-4xl tracking-tight
@@ -425,7 +425,7 @@
         </div>
         <div class="text-red font-extrabold text-4xl">2300</div>
         <div class="mb-4 leading-8 font-bold text-xl text-gray-800">
-          Drive-in movie nights
+          Outdoor movie nights
         </div>
         <div class="text-red font-extrabold text-4xl">All of them</div>
         <div class="mb-4 leading-8 font-bold text-xl text-gray-800">

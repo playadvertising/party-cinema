@@ -9,7 +9,7 @@
         </div>
       
     
-        <form action="https://api.form-data.com/f/vhwglzikey8cbjkhgis4kn"
+        <form id="form" action="https://api.form-data.com/f/vhwglzikey8cbjkhgis4kn"
           method="post">
           <!-- honeypot -->
           <input type="text" name="xx_password" class="hidden" tabindex="-1" 
@@ -18,8 +18,15 @@
             <div class="px-4 py-5">
               <div class="grid grid-cols-8 gap-y-6 gap-x-3">
                 <div class="col-span-4">
-                  <input required type="text" placeholder="Name" name="name" id="name" 
+                  <input required type="text" placeholder="First name" name="name" id="name" 
                   autocomplete="given-name" 
+                  class="mt-1 placeholder-gray-900 focus:ring-yellow-500 
+                  bg-gray-300 focus:border-red 
+                  block h-14 w-full border-gray-300" />
+                </div>
+                <div class="col-span-4">
+                  <input required type="text" placeholder="Last name" name="last-name" id="last-name" 
+                  autocomplete="last-name" 
                   class="mt-1 placeholder-gray-900 focus:ring-yellow-500 
                   bg-gray-300 focus:border-red 
                   block h-14 w-full border-gray-300" />
@@ -33,13 +40,13 @@
                 </div>
 
                 <div class="col-span-4">
-                  <input required type="text" placeholder="Phone" name="phone" id="phone" 
-                  autocomplete="phone" 
+                  <input required type="tel" placeholder="Phone" name="phone" id="phone" 
+                  autocomplete="phone" minlength="10" maxlength="11"
                   class="mt-1 placeholder-gray-900 focus:ring-yellow-400 
                   bg-gray-300 focus:border-red block h-14 w-full border-gray-300" />
                 </div>
 
-                <div class="col-span-4">
+                <div class="col-span-8">
                   <input required type="text" placeholder="Subject" name="subject" 
                   id="subject" autocomplete="subject" 
                   class="mt-1 placeholder-gray-900 focus:ring-yellow-500 
@@ -57,7 +64,7 @@
             </div>
             <div class="px-4 py-3 flex justify-between sm:px-6">
               <a class="text-2xl" href="tel:1-888-853-0053">1-888-853-0053</a>
-              <button type="submit" 
+              <button @click="addDashes()"
               class="inline-flex justify-center py-4 px-8 border border-transparent 
               shadow-sm text-sm font-medium 
               rounded-full text-black bg-yellow-400 hover:bg-yellow-200 
@@ -87,6 +94,21 @@ export default {
       
     }
   },
+  methods: {
+     addDashes()
+        { 
+            let f = document.querySelector('#phone').value;
+            let f_val = f.replace(/\D[^\.]/g, "");
+            f = f_val.slice(0,3)+"-"+f_val.slice(3,6)+"-"+f_val.slice(6);
+            document.querySelector('#phone').value = f;
+            setTimeout(function(){  
+                if (document.getElementById("form")) {
+                    submitForm(); 
+                }
+            }, 1000);
+             
+        }
+  }
 }
 </script>
 <style scoped>
