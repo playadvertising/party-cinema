@@ -1,290 +1,345 @@
 <template>
   <Layout>
     <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-white overflow-hidden ">
-  <div class="">
-      
- 
-      <Nav @scroll="scrollToBottom()" class="z-10 max-w-5xl mx-auto mb-4 bg-white"></Nav>
- 
-        
-      
-      <div class="relative bg-outdoor-movie bg-cover lg:h-screen bg-clip-padding bg-no-repeat
-          overflow-hidden">
-        <div class="absolute top-0 opacity-50 h-full w-full bg-gradient-to-tl from-yellow-200 to-red"></div>
-        
-            <div class="relative z-10 mt-10 pb-5 md:pb-10 lg:pb-20 max-w-4xl mx-auto
-            px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-              <div class="text-white">
-                <h1 class="text-4xl tracking-tight
-                font-extrabold sm:text-5xl md:text-6xl">
-                  <span class="block">
-                    Your big screen entertainment experts.
-                    </span>
-                </h1>
-                <h2 class="font-bold leading-8 sm:mt-5 
-                lg:text-xl text-md">
-                  At Party Cinemas we are true professionals. We’ve been entertaining for nearly 20 years. We are fully licensed, insured and guarantee you an exceptional and professional experience!
-                </h2>
-                </div>
-                <div class="mt-5 flex">
-                  <div @click="scrollToBottom()" class="mt-3 sm:mt-0">
-                    <a href="#" class="w-full flex items-center 
+    <div class="relative bg-white overflow-hidden ">
+      <div class="">
+        <Nav
+          @scroll="scrollToBottom()"
+          class="z-10 max-w-5xl mx-auto mb-4 bg-white"
+        ></Nav>
+
+        <div
+          class="relative bg-outdoor-movie bg-cover lg:h-screen bg-clip-padding bg-no-repeat
+          overflow-hidden"
+        >
+          <div
+            class="absolute top-0 opacity-50 h-full w-full bg-gradient-to-tl from-yellow-200 to-red"
+          ></div>
+
+          <div
+            class="relative z-10 mt-10 pb-5 md:pb-10 lg:pb-20 max-w-4xl mx-auto
+            px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
+          >
+            <div class="text-white">
+              <h1
+                class="text-4xl tracking-tight
+                font-extrabold sm:text-5xl md:text-6xl"
+              >
+                <span class="block">
+                  Your big screen entertainment experts.
+                </span>
+              </h1>
+              <h2
+                class="font-bold leading-8 sm:mt-5 
+                lg:text-xl text-md"
+              >
+                At Party Cinemas we are true professionals. We’ve been
+                entertaining for nearly 20 years. We are fully licensed, insured
+                and guarantee you an exceptional and professional experience!
+              </h2>
+            </div>
+            <div class="mt-5 flex">
+              <div @click="scrollToBottom()" class="mt-3 sm:mt-0">
+                <a
+                  href="#"
+                  class="w-full flex items-center 
                     justify-center
                     border border-transparent 
                     text-bold font-bold 
                     rounded-full text-red bg-py 
-                    hover:bg-white py-4 md:text-xl px-10">
-                      Book Us Today 
-                      <span class="pb-2 pl-2">&darr;</span>
-                    </a>
-                  </div>
-                </div>
-              
+                    hover:bg-white py-4 md:text-xl px-10"
+                >
+                  Book Us Today
+                  <span class="pb-2 pl-2">&darr;</span>
+                </a>
+              </div>
             </div>
+          </div>
           <div class="absolute top-4 right-4 flex flex-row gap-x-4">
             <a href="https://www.facebook.com/partycinemas/">
-              <div class="w-8 md:w-12 bg-gradient-to-tl from-yellow-200 to-red rounded opacity-75">
-                <g-image alt="facebook link" 
-                class="p-1 object-center w-full h-full" 
-                src="../facebook.png"/>
+              <div
+                class="w-8 md:w-12 bg-gradient-to-tl from-yellow-200 to-red rounded opacity-75"
+              >
+                <g-image
+                  alt="facebook link"
+                  class="p-1 object-center w-full h-full"
+                  src="../facebook.png"
+                />
               </div>
             </a>
             <a href="https://www.instagram.com/partycinemas/?hl=en">
-              <div class="w-8 md:w-12 bg-gradient-to-tl from-yellow-200 to-red rounded opacity-75">
-                <g-image alt="instagram link" 
-                class="p-1 object-center w-full h-full" 
-                src="../instagram.png"/>
+              <div
+                class="w-8 md:w-12 bg-gradient-to-tl from-yellow-200 to-red rounded opacity-75"
+              >
+                <g-image
+                  alt="instagram link"
+                  class="p-1 object-center w-full h-full"
+                  src="../instagram.png"
+                />
               </div>
             </a>
-            </div>
-        </div>
-  
-  </div>
-
-</div>
-<div class="py-12 bg-white">
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-    
-      <p class="mt-2 text-4xl leading-8 font-bold text-gray-700 sm:text-4xl">
-        One size doesn't fit all,
-        We’re talking inflatable screens up to 3 storeys high!
-      </p>
-       <p class="my-4 leading-8 max-w-2xl text-2xl text-gray-400">
-       Whether you need an 8-foot screen for a backyard bash, or a monster, 50-foot screen to fill a parking lot, our events are larger than life!
-      </p> 
-      <g-link to="/outdoor-movies-faq/" class="text-gray-700 
-      cursor-pointer hover:text-red 
-      font-bold text-xl">
-      Learn more on our FAQ's page 
-      <span>&rarr;</span></g-link>
-    
-  </div>
-</div>
-
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-12 mx-auto">
-    <div class="flex flex-wrap justify-center -m-4">
-      <div class="md:w-1/3 w-full">
-        <div class="p-4">
-          <a class="block relative h-48 rounded overflow-hidden">
-            <g-image alt=""
-            class="object-cover object-center w-full h-full block" 
-            src="../odm1.jpg"/>
-          </a>
-        </div>
-        <div class="p-4">
-          <a class="block relative h-48 rounded overflow-hidden">
-            <g-image alt="" 
-            class="object-cover object-center w-full h-full block" 
-            src="../odm2.jpg"/>
-          </a>
-        </div>
-        <div class="p-4">
-          <a class="block relative h-48 rounded overflow-hidden">
-            <g-image alt="" 
-            class="object-cover object-center w-full h-full block" 
-            src="../odm3.jpg"/>
-          </a>
-        </div>
-        <div class="p-4">
-          <a class="block relative h-48 rounded overflow-hidden">
-            <g-image alt="" 
-            class="object-cover object-center w-full h-full block" 
-            src="../odm4.jpg"/>
-          </a>
+          </div>
         </div>
       </div>
-      <div class="max-w-4xl w-full md:w-1/2 px-4 sm:px-6 lg:px-8">
-        
-          <p class="mt-2 text-4xl leading-8 font-bold text-gray-700 sm:text-4xl">
-          Our corporate events become annual events.          </p>
-          <p class="my-4 leading-8 max-w-2xl text-2xl text-gray-400">
-          From product launch to award gala, Party Cinemas has you covered. As an award-winning entertainment company, we know how to impress an audience and we know how to be memorable.           </p> 
-          <a 
-          @click="scrollToBottom()"
-          class="text-gray-700 cursor-pointer 
-          hover:text-red font-bold text-xl">
-          Book Us Today<span>&darr;</span></a>
-        
-
-        <video class="mt-8" controls>
-        <source src="../Untitled.mp4" type="video/mp4">
-  <p>Your browser doesn't support HTML5 video.</p>
-</video>
-      </div>
-      
     </div>
-  </div>
-</section>
+    <div class="py-12 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <p class="mt-2 text-4xl leading-8 font-bold text-gray-700 sm:text-4xl">
+          One size doesn't fit all, We’re talking inflatable screens up to 3
+          storeys high!
+        </p>
+        <p class="my-4 leading-8 max-w-2xl text-2xl text-gray-400">
+          Whether you need an 8-foot screen for a backyard bash, or a monster,
+          50-foot screen to fill a parking lot, our events are larger than life!
+        </p>
+        <g-link
+          to="/outdoor-movies-faq/"
+          class="text-gray-700 
+      cursor-pointer hover:text-red 
+      font-bold text-xl"
+        >
+          Learn more on our FAQ's page
+          <span>&rarr;</span></g-link
+        >
+      </div>
+    </div>
 
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-12 mx-auto">
+        <div class="flex flex-wrap justify-center -m-4">
+          <div class="md:w-1/3 w-full">
+            <div class="p-4">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <g-image
+                  alt=""
+                  class="object-cover object-center w-full h-full block"
+                  src="../odm1.jpg"
+                />
+              </a>
+            </div>
+            <div class="p-4">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <g-image
+                  alt=""
+                  class="object-cover object-center w-full h-full block"
+                  src="../odm2.jpg"
+                />
+              </a>
+            </div>
+            <div class="p-4">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <g-image
+                  alt=""
+                  class="object-cover object-center w-full h-full block"
+                  src="../odm3.jpg"
+                />
+              </a>
+            </div>
+            <div class="p-4">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <g-image
+                  alt=""
+                  class="object-cover object-center w-full h-full block"
+                  src="../odm4.jpg"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="max-w-4xl w-full md:w-1/2 px-4 sm:px-6 lg:px-8">
+            <p
+              class="mt-2 text-4xl leading-8 font-bold text-gray-700 sm:text-4xl"
+            >
+              Our corporate events become annual events.
+            </p>
+            <p class="my-4 leading-8 max-w-2xl text-2xl text-gray-400">
+              From product launch to award gala, Party Cinemas has you covered.
+              As an award-winning entertainment company, we know how to impress
+              an audience and we know how to be memorable.
+            </p>
+            <a
+              @click="scrollToBottom()"
+              class="text-gray-700 cursor-pointer 
+          hover:text-red font-bold text-xl"
+            >
+              Book Us Today<span>&darr;</span></a
+            >
 
-<div class="py-10 bg-white">
-  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-    
-      <p class="text-4xl leading-8 font-bold text-gray-700 sm:text-4xl">
-        We offer so much more than movies
-      </p>
-       <p class="my-4 leading-8 max-w-2xl text-2xl text-gray-400">
-         Video dance parties, fundraisers, live sporting simulcasts, weddings, meet & greets, community social events – you name it and we have done it. 
-      </p> 
-          <a 
+            <video class="mt-8" controls>
+              <source src="../Untitled.mp4" type="video/mp4" />
+              <p>Your browser doesn't support HTML5 video.</p>
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="py-10 bg-white">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <p class="text-4xl leading-8 font-bold text-gray-700 sm:text-4xl">
+          We offer so much more than movies
+        </p>
+        <p class="my-4 leading-8 max-w-2xl text-2xl text-gray-400">
+          Video dance parties, fundraisers, live sporting simulcasts, weddings,
+          meet & greets, community social events – you name it and we have done
+          it.
+        </p>
+        <a
           @click="scrollToBottom()"
           class="text-gray-700 cursor-pointer 
-          hover:text-red font-bold text-xl">
-          Book Us Today<span>&darr;</span></a>
-    
-  </div>
-</div>
-
-<div class="flex flex-wrap justify-center">
-<div class="md:max-w-lg lg:max-w-md px-4 py-4 my-auto hover:-translate-y-1 ease-in transform duration-200 cursor-pointer">
-    <g-link to="/video-dance-party">
-    <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
-      
-      
-        <div 
-        class="md:flex-shrink-0">
-
-          <g-image 
-          src="../vdp-1.jpg" 
-          alt="uploaded cover image"
-          class="object-cover h-full w-full rounded-lg rounded-b-none">
-          </g-image>
-        </div>
-      
-      
-      <div class="py-1 ">
-        <div class="p-4">
-          <span class="bg-blue-100 rounded p-1">
-            <span 
-            class="text-blue-500 font-bold text-sm pl-2 pr-20 md:pr-56">
-              Video Dance Party</span>
-          </span>
-          <h2 class="font-bold mb-4 mt-2 
-          text-2xl text-gray-800 ">
-          Dance like nobody's watching.
-          </h2> 
-          <p class="text-gray-500 hover:text-red">
-            More Details<span>&rarr;</span>
-          </p>
-        </div>
+          hover:text-red font-bold text-xl"
+        >
+          Book Us Today<span>&darr;</span></a
+        >
       </div>
-    </div> 
-  </g-link>
-  </div>
-  <div class="md:max-w-lg lg:max-w-md px-4 py-4 my-auto hover:-translate-y-1 ease-in transform duration-200 cursor-pointer">
-    <g-link to="/outdoor-movies">
-    <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
-      
-      
-        <div 
-        class="md:flex-shrink-0">
+    </div>
 
-          <g-image 
-          src="../odm1.jpg" 
-          alt="uploaded cover image"
-          class="object-cover h-full w-full rounded-lg rounded-b-none">
-          </g-image>
-        </div>
-      
-      
-      <div class="py-1 ">
-        <div class="px-4 py-6">
-          <span class="bg-blue-100 rounded p-1">
-            <span 
-            class="text-blue-500 font-bold text-sm pl-2 pr-20 md:pr-56">
-              Outdoor Movies</span>
-          </span>
-          <h2 class="font-bold mb-4 mt-2 
-          text-2xl text-gray-800 ">
-          Big screen movie experience, anywhere.
-          </h2> 
-          <p class="text-gray-500 hover:text-red">
-            More Details<span>&rarr;</span>
-          </p>
-        </div>
-      </div>
-    </div> 
-  </g-link>
-  </div>
-  <div class="md:max-w-lg lg:max-w-md px-4 py-4 my-auto hover:-translate-y-1 ease-in transform duration-200 cursor-pointer">
-    <g-link to="https://plusav.ca/">
-      <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
-        <div class="md:flex-shrink-0">
+    <div class="flex flex-wrap justify-center">
+      <div
+        class="md:max-w-lg lg:max-w-md px-4 py-4 my-auto hover:-translate-y-1 ease-in transform duration-200 cursor-pointer"
+      >
+        <g-link to="/video-dance-party">
+          <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
+            <div class="md:flex-shrink-0">
+              <g-image
+                src="../vdp-1.jpg"
+                alt="uploaded cover image"
+                class="object-cover h-full w-full rounded-lg rounded-b-none"
+              >
+              </g-image>
+            </div>
 
-          <img src="../audio-mixer-rental.jpg" alt="uploaded cover image"
-            class="object-cover h-full w-full rounded-lg rounded-b-none">
+            <div class="py-1 ">
+              <div class="p-4">
+                <span class="bg-blue-100 rounded p-1">
+                  <span
+                    class="text-blue-500 font-bold text-sm pl-2 pr-20 md:pr-56"
+                  >
+                    Video Dance Party</span
+                  >
+                </span>
+                <h2
+                  class="font-bold mb-4 mt-2 
+          text-2xl text-gray-800 "
+                >
+                  Dance like nobody's watching.
+                </h2>
+                <p class="text-gray-500 hover:text-red">
+                  More Details<span>&rarr;</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </g-link>
+      </div>
+      <div
+        class="md:max-w-lg lg:max-w-md px-4 py-4 my-auto hover:-translate-y-1 ease-in transform duration-200 cursor-pointer"
+      >
+        <g-link to="/outdoor-movies">
+          <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
+            <div class="md:flex-shrink-0">
+              <g-image
+                src="../odm1.jpg"
+                alt="uploaded cover image"
+                class="object-cover h-full w-full rounded-lg rounded-b-none"
+              >
+              </g-image>
+            </div>
 
-        </div>
-    
-      
-      <div class="py-1 ">
-        <div class="p-4">
-          <span class="bg-blue-100 rounded p-1">
-            <span class="text-blue-500 font-bold text-sm pl-2 pr-20 md:pr-56">Plus AV</span>
-          </span>
-          <h2 class="font-bold mb-4 mt-2 
-          text-2xl text-gray-800 ">
-          Audio/Visual done right. It’s that simple.
-          </h2> 
-          <p class="text-gray-500 hover:text-red">
-            More Details<span>&rarr;</span>
-          </p>
-        </div>
+            <div class="py-1 ">
+              <div class="px-4 py-6">
+                <span class="bg-blue-100 rounded p-1">
+                  <span
+                    class="text-blue-500 font-bold text-sm pl-2 pr-20 md:pr-56"
+                  >
+                    Outdoor Movies</span
+                  >
+                </span>
+                <h2
+                  class="font-bold mb-4 mt-2 
+          text-2xl text-gray-800 "
+                >
+                  Big screen movie experience, anywhere.
+                </h2>
+                <p class="text-gray-500 hover:text-red">
+                  More Details<span>&rarr;</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </g-link>
       </div>
-      </div>
-    </g-link>
-  </div>
-  <div class="md:max-w-lg lg:max-w-md px-4 py-4 my-auto hover:-translate-y-1 ease-in transform duration-200 cursor-pointer">
-    <g-link to="https://www.studiostream.ca/">
-      <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
-        <div class="md:flex-shrink-0">
+      <div
+        class="md:max-w-lg lg:max-w-md px-4 py-4 my-auto hover:-translate-y-1 ease-in transform duration-200 cursor-pointer"
+      >
+        <g-link to="https://plusav.ca/">
+          <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
+            <div class="md:flex-shrink-0">
+              <img
+                src="../audio-mixer-rental.jpg"
+                alt="uploaded cover image"
+                class="object-cover h-full w-full rounded-lg rounded-b-none"
+              />
+            </div>
 
-          <img src="https://static.wixstatic.com/media/e912a5_ca68953469e24d448f844271a76fcac3~mv2.jpeg/v1/fill/w_809,h_607,al_c,q_85,usm_0.66_1.00_0.01/e912a5_ca68953469e24d448f844271a76fcac3~mv2.webp" alt="uploaded cover image"
-            class="object-cover h-full w-full rounded-lg rounded-b-none">
+            <div class="py-1 ">
+              <div class="p-4">
+                <span class="bg-blue-100 rounded p-1">
+                  <span
+                    class="text-blue-500 font-bold text-sm pl-2 pr-20 md:pr-56"
+                    >Plus AV</span
+                  >
+                </span>
+                <h2
+                  class="font-bold mb-4 mt-2 
+          text-2xl text-gray-800 "
+                >
+                  Audio/Visual done right. It’s that simple.
+                </h2>
+                <p class="text-gray-500 hover:text-red">
+                  More Details<span>&rarr;</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </g-link>
+      </div>
+      <!-- Studio streaming card -->
+      <!-- <div
+        class="md:max-w-lg lg:max-w-md px-4 py-4 my-auto hover:-translate-y-1 ease-in transform duration-200 cursor-pointer"
+      >
+        <g-link to="https://www.studiostream.ca/">
+          <div class="bg-gray-50 md:bg-white md:shadow-xl rounded-lg mb-6 ">
+            <div class="md:flex-shrink-0">
+              <img
+                src="https://static.wixstatic.com/media/e912a5_ca68953469e24d448f844271a76fcac3~mv2.jpeg/v1/fill/w_809,h_607,al_c,q_85,usm_0.66_1.00_0.01/e912a5_ca68953469e24d448f844271a76fcac3~mv2.webp"
+                alt="uploaded cover image"
+                class="object-cover h-full w-full rounded-lg rounded-b-none"
+              />
+            </div>
 
-        </div>
-    
-      
-      <div class="py-1 ">
-        <div class="p-4">
-          <span class="bg-blue-100 rounded p-1">
-            <span class="text-blue-500 font-bold text-sm pl-2 pr-20 md:pr-56">Studio streaming</span>
-          </span>
-          <h2 class="font-bold mb-4 mt-2 
-          text-2xl text-gray-800 ">
-          Stream your important events.
-          </h2> 
-          <p class="text-gray-500 hover:text-red">
-            More Details<span>&rarr;</span>
-          </p>
-        </div>
-      </div>
-      </div>
-    </g-link>
-  </div>
-</div>
+            <div class="py-1 ">
+              <div class="p-4">
+                <span class="bg-blue-100 rounded p-1">
+                  <span
+                    class="text-blue-500 font-bold text-sm pl-2 pr-20 md:pr-56"
+                    >Studio streaming</span
+                  >
+                </span>
+                <h2
+                  class="font-bold mb-4 mt-2 
+          text-2xl text-gray-800 "
+                >
+                  Stream your important events.
+                </h2>
+                <p class="text-gray-500 hover:text-red">
+                  More Details<span>&rarr;</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </g-link>
+      </div> -->
+    </div>
     <!-- <div class="mt-10">
       <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
         <div class="relative">
@@ -401,23 +456,25 @@
     </div>
   </div>
 </div> -->
-<div class="flex py-5 items-center">
-    <div class="flex-grow border-t border-gray-200"></div>
-</div>
+    <div class="flex py-5 items-center">
+      <div class="flex-grow border-t border-gray-200"></div>
+    </div>
 
-    
     <div class="py-12 bg-white text-center">
-      <g-image 
-      class="mx-auto"
-      alt="Party cinema" 
-      src="~/party-cinemas-thumbnail-logo.png" 
-      width="60" />
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-      
+      <g-image
+        class="mx-auto"
+        alt="Party cinema"
+        src="~/party-cinemas-thumbnail-logo.png"
+        width="60"
+      />
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <p class="mt-2 text-4xl leading-8 font-bold text-gray-700 sm:text-4xl">
-        So many parties, so many happy clients.</p>
+          So many parties, so many happy clients.
+        </p>
         <p class="my-4 leading-8 max-w-2xl text-2xl text-gray-400">
-        The proof is in the pudding, so they say. For close to 20 years, Party Cinemas has been entertaining crowds of all sizes – and it’s starting to add up!
+          The proof is in the pudding, so they say. For close to 20 years, Party
+          Cinemas has been entertaining crowds of all sizes – and it’s starting
+          to add up!
         </p>
         <div class="text-red font-extrabold text-4xl">1100</div>
         <div class="mb-4 leading-8 font-bold text-xl text-gray-800">
@@ -431,82 +488,115 @@
         <div class="mb-4 leading-8 font-bold text-xl text-gray-800">
           Happy clients
         </div>
+      </div>
     </div>
-  </div>
 
+    <!-- testimonial area -->
 
-  <!-- testimonial area -->
-  
-  <div class="mb-4 py-12 border-2 border-gray-200 rounded-lg max-w-2xl mx-auto">
-  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-    
-      <p class="mt-2 text-lg leading-8 font-bold text-gray-700">
-       Testimonial from: Oliver Ward (Oliwoodfilms)
-      </p>
-       <p class="my-4 max-w-2xl text-base text-gray-400">
-        "I run a film festival in Huntsville called CineMuskoka. Anthony and his team installed their larger than life 40 foot inflatable screen right in the center of town in our Park. It was incredible! Amazing quality and a spectacle for passersby. The screen itself acted as advertising for our event. I can highly recommend Party Cinemas as a professional, easy to work with company. We will definitely be using them again."
-        </p>  
-   
-  </div>
-</div>
+    <div
+      class="mb-4 py-12 border-2 border-gray-200 rounded-lg max-w-2xl mx-auto"
+    >
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <p class="mt-2 text-lg leading-8 font-bold text-gray-700">
+          Testimonial from: Oliver Ward (Oliwoodfilms)
+        </p>
+        <p class="my-4 max-w-2xl text-base text-gray-400">
+          "I run a film festival in Huntsville called CineMuskoka. Anthony and
+          his team installed their larger than life 40 foot inflatable screen
+          right in the center of town in our Park. It was incredible! Amazing
+          quality and a spectacle for passersby. The screen itself acted as
+          advertising for our event. I can highly recommend Party Cinemas as a
+          professional, easy to work with company. We will definitely be using
+          them again."
+        </p>
+      </div>
+    </div>
 
-<div class="mb-4 py-12 border-2 border-gray-200 rounded-lg max-w-2xl mx-auto">
-  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-    
-      <p class="mt-2 text-lg leading-8 font-bold text-gray-700">
-       Testimonial from: Geoff And Dena Silverberg
-      </p>
-       <p class="my-4 max-w-2xl text-base text-gray-400">
-        "Wow! what an incredible night. Thank you Anthony for making my son's 16th birthday a one of kind outstanding event! Anthony showed up early, ensured everything was working and returned promptly to remove. He was gracious and responded to every question I had regarding the event. A truly wonderful one of kind birthday! Thank you Anthony and Party Cinemas!"      
-          </p>  
-   
-  </div>
-</div>
+    <div
+      class="mb-4 py-12 border-2 border-gray-200 rounded-lg max-w-2xl mx-auto"
+    >
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <p class="mt-2 text-lg leading-8 font-bold text-gray-700">
+          Testimonial from: Geoff And Dena Silverberg
+        </p>
+        <p class="my-4 max-w-2xl text-base text-gray-400">
+          "Wow! what an incredible night. Thank you Anthony for making my son's
+          16th birthday a one of kind outstanding event! Anthony showed up
+          early, ensured everything was working and returned promptly to remove.
+          He was gracious and responded to every question I had regarding the
+          event. A truly wonderful one of kind birthday! Thank you Anthony and
+          Party Cinemas!"
+        </p>
+      </div>
+    </div>
 
-<div class="mb-8 py-12 border-2 border-gray-200 rounded-lg max-w-2xl mx-auto">
-  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-    
-      <p class="mt-2 text-lg leading-8 font-bold text-gray-700">
-       Testimonial from: Halton Agricultural Society
-      </p>
-       <p class="my-4 max-w-2xl text-base text-gray-400">
-      "Party Cinemas was a pleasure to work with. Excellent service from bookings, day of events and follow up! Thank you for making our first year of Flicks @ the Fairgrounds a success!"
-       </p>  
-   
-  </div>
-</div>
+    <div
+      class="mb-8 py-12 border-2 border-gray-200 rounded-lg max-w-2xl mx-auto"
+    >
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <p class="mt-2 text-lg leading-8 font-bold text-gray-700">
+          Testimonial from: Halton Agricultural Society
+        </p>
+        <p class="my-4 max-w-2xl text-base text-gray-400">
+          "Party Cinemas was a pleasure to work with. Excellent service from
+          bookings, day of events and follow up! Thank you for making our first
+          year of Flicks @ the Fairgrounds a success!"
+        </p>
+      </div>
+    </div>
 
-<div class="py-12 bg-white text-gray-900 grid">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center">
-      <p class="mt-2 pb-4 text-4xl font-bold
-      md:text-6xl">
-        just some of our <br/> amazing clients
-      </p>
+    <div class="py-12 bg-white text-gray-900 grid">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <p
+            class="mt-2 pb-4 text-4xl font-bold
+      md:text-6xl"
+          >
+            just some of our <br />
+            amazing clients
+          </p>
+        </div>
+        <div class="w-full">
+          <g-image
+            class="object-inside"
+            src="../logos-1.jpg"
+            alt="three logos: Amica senior lifestyles, Bell, Brock University"
+          />
+        </div>
+        <div class="w-full">
+          <g-image
+            class="object-inside"
+            src="../logos-2.jpg"
+            alt="three logos: City of Burlington, Canadian Cancer Society, Town of Halton Hills"
+          />
+        </div>
+        <div class="w-full">
+          <g-image
+            class="object-inside"
+            src="../logos-3.jpg"
+            alt="three logos: City of Brampton, University of Guelph, Lilly"
+          />
+        </div>
+        <div class="w-full">
+          <g-image
+            class="object-inside"
+            src="../logos-4.jpg"
+            alt="three logos: Jays Care  Foundation, Pepsico, JDRF"
+          />
+        </div>
+        <div class="w-full">
+          <g-image
+            class="object-inside"
+            src="../logos-5.jpg"
+            alt="three logos: Western University, York University, University of Waterloo"
+          />
+        </div>
+      </div>
     </div>
-    <div class="w-full">
-      <g-image class="object-inside" src="../logos-1.jpg" alt="three logos: Amica senior lifestyles, Bell, Brock University"/>
-    </div>
-    <div class="w-full">
-      <g-image class="object-inside" src="../logos-2.jpg" alt="three logos: City of Burlington, Canadian Cancer Society, Town of Halton Hills"/>
-    </div>
-    <div class="w-full">
-      <g-image class="object-inside" src="../logos-3.jpg" alt="three logos: City of Brampton, University of Guelph, Lilly"/>
-    </div>
-    <div class="w-full">
-      <g-image class="object-inside" src="../logos-4.jpg" alt="three logos: Jays Care  Foundation, Pepsico, JDRF"/>
-    </div>
-    <div class="w-full">
-      <g-image class="object-inside" src="../logos-5.jpg" alt="three logos: Western University, York University, University of Waterloo"/>
-    </div>
-  </div>
-  </div>
 
-<ContactForm></ContactForm>
-<Footer></Footer>
+    <ContactForm></ContactForm>
+    <Footer></Footer>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    
- 
   </Layout>
 </template>
 <script>
@@ -515,18 +605,19 @@ import Footer from "../components/Footer.vue";
 import ContactForm from "../components/ContactForm.vue";
 export default {
   components: { Nav, ContactForm, Footer },
-  data: function () {
-    return {
-      
-    }
+  data: function() {
+    return {};
   },
   methods: {
     scrollToBottom() {
-      window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
-    }
+      window.scrollTo(
+        0,
+        document.body.scrollHeight || document.documentElement.scrollHeight
+      );
+    },
   },
   metaInfo: {
-    title: 'Home'
-  }
-}
+    title: "Home",
+  },
+};
 </script>
